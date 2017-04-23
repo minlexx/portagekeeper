@@ -1,0 +1,30 @@
+<kde-apps/dolphin-17.04.49 **
+<kde-apps/baloo-widgets-17.04.49 **
+<kde-apps/kio-extras-17.04.49 **
+<kde-apps/kdialog-17.04.49 **
+<kde-apps/kholidays-17.04.49 **
+<kde-apps/kolourpaint-17.04.49 **
+<kde-apps/libkexiv2-17.04.49 **
+<kde-apps/kaccounts-integration-17.04.49 **
+<kde-apps/khelpcenter-17.04.49 **
+
+<kde-apps/ark-17.04.49 **
+<kde-apps/konsole-17.04.49 **
+<kde-apps/kate-17.04.49 **
+<kde-apps/gwenview-17.04.49 **
+# =kde-misc/yakuake-9999 **
+
+# required by kde-apps/gwenview-16.04.49.9999::kde[kipi]
+# =kde-apps/libkipi-9999 **
+<kde-apps/libkipi-17.04.99 **
+# kipi-plugins is needed at least for spectacle
+<=media-plugins/kipi-plugins-5.5.0 ~amd64
+=net-libs/libkvkontakte-9999 **
+<kde-apps/spectacle-17.04.49 ~amd64
+
+<=www-client/qupzilla-2.2 ~amd64
+
+=media-video/kmplayer-9999 **
+=media-video/kaffeine-9999 **
+
+<kde-apps/svgpart-17.04.99 ~amd64

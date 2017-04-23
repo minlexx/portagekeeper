@@ -1,0 +1,4 @@
+x11-plugins/wmsystemtray
+dev-libs/libindicator
+dev-libs/libappindicator
+dev-libs/libdbusmenu

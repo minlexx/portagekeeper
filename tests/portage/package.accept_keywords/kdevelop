@@ -1,0 +1,6 @@
+#=dev-util/kdevelop-9999 **
+#=dev-util/kdevplatform-9999 **
+#=dev-util/kdevelop-pg-qt-9999 **
+=dev-libs/grantlee-5.0.0 ~amd64
+#=kde-apps/libkomparediff2-9999 **
+#=kde-apps/kapptemplate-9999 **

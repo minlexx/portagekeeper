@@ -1,0 +1,5 @@
+media-fonts/hack ~amd64
+<=media-gfx/inkscape-0.91
+media-gfx/graphviz
+<=media-libs/freetype-2.6.3-r1 ~amd64
+<=media-video/vlc-2.2.3 ~amd64

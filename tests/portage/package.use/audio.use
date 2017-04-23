@@ -1,0 +1,7 @@
+media-sound/pulseaudio alsa alsa-plugin equalizer gnome
+
+media-plugins/alsa-plugins pulseaudio libsamplerate speex
+media-sound/alsa-utils libsamplerate ncurses
+
+media-sound/audacious qt5 -gtk -gtk3
+media-plugins/audacious-plugins -gtk -gtk3 aac alsa cdda flac libnotify mp3 nls pulseaudio qt5 sdl vorbis cue ffmpeg http lame libsamplerate sndfile wavpack

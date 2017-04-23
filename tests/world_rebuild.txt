@@ -1,0 +1,1084 @@
+﻿gentoo-vbox ~ # emerge -1aveND --backtrack=100 --with-bdeps=y @world
+
+These are the packages that would be merged, in order:
+
+Calculating dependencies           ... done!   
+[ebuild   R    ] dev-lang/python-exec-2.4.4:2::gentoo  PYTHON_TARGETS="(jython2_7) (pypy) (pypy3) (python2_7) (python3_4) (python3_5) (python3_6*)" 0 KiB
+[ebuild   R    ] dev-qt/qtchooser-0_p20151008::gentoo  USE="{-test}" 31 KiB
+[ebuild   R    ] virtual/libintl-0-r2::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-arch/bzip2-1.0.6-r7::gentoo  USE="-static -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/libiconv-0-r2::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-devel/gnuconfig-20161104::gentoo  0 KiB
+[ebuild   R    ] sys-apps/gentoo-functions-0.10::gentoo  12 KiB
+[ebuild   R    ] app-arch/gzip-1.8::gentoo  USE="-pic -static" 0 KiB
+[ebuild   R    ] app-misc/mime-types-9::gentoo  16 KiB
+[ebuild   R    ] app-misc/c_rehash-1.7-r1::gentoo  0 KiB
+[ebuild   R    ] app-misc/editor-wrapper-4::gentoo  0 KiB
+[ebuild   R    ] sys-apps/which-2.21::gentoo  0 KiB
+[ebuild   R    ] sys-apps/baselayout-2.3::gentoo  USE="-build" 0 KiB
+[ebuild   R    ] sys-apps/debianutils-4.7::gentoo  USE="-static" 0 KiB
+[ebuild   R    ] app-arch/lz4-0_p131:0/r131::gentoo  USE="{-test} -valgrind" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-text/poppler-data-0.4.7::gentoo  4,085 KiB
+[ebuild   R    ] dev-libs/lzo-2.09:2::gentoo  USE="-examples -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-apps/install-xattr-0.5::gentoo  16 KiB
+[ebuild   R    ] sys-devel/gcc-config-1.7.3::gentoo  15 KiB
+[ebuild   R    ] net-libs/libmnl-1.0.4:0/0.2.0::gentoo  USE="-examples -static-libs" 0 KiB
+[ebuild   R    ] app-text/manpager-1::gentoo  0 KiB
+[ebuild   R    ] dev-libs/libaio-0.3.110::gentoo  USE="-static-libs {-test}" ABI_X86="32 (64) (-x32)" 42 KiB
+[ebuild   R    ] dev-util/gperf-3.0.4::gentoo  961 KiB
+[ebuild   R    ] app-text/sgml-common-0.6.3-r5::gentoo  126 KiB
+[ebuild   R    ] sys-libs/libutempter-1.1.6-r2::gentoo  USE="-static-libs" 0 KiB
+[ebuild   R    ] sys-devel/autoconf-wrapper-13::gentoo  0 KiB
+[ebuild   R    ] sys-apps/tcp-wrappers-7.6.22-r1::gentoo  USE="ipv6 -netgroups -static-libs" ABI_X86="32 (64) (-x32)" 138 KiB
+[ebuild   R    ] app-arch/cpio-2.12-r1::gentoo  USE="nls" 1,230 KiB
+[ebuild   R    ] sys-devel/automake-wrapper-10::gentoo  0 KiB
+[ebuild   R    ] dev-util/re2c-0.16::gentoo  0 KiB
+[ebuild   R    ] dev-libs/liblinear-210-r1:0/3::gentoo  USE="-blas" 373 KiB
+[ebuild   R    ] dev-util/boost-build-1.62.0-r1::gentoo  USE="-examples -python {-test}" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] dev-util/cppunit-1.13.2-r2::gentoo  USE="-doc -examples -static-libs" ABI_X86="32 (64) (-x32)" 932 KiB
+[ebuild   R   ~] dev-db/lmdb-0.9.19:0/0.9.19::gentoo  USE="-static-libs" 0 KiB
+[ebuild   R    ] net-dialup/ppp-scripts-0::gentoo  0 KiB
+[ebuild   R    ] media-libs/libuninameslist-20091231::gentoo  556 KiB
+[ebuild   R    ] media-libs/webrtc-audio-processing-0.3::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] net-wireless/wireless-regdb-20170307::gentoo  0 KiB
+[ebuild   R    ] sys-devel/bin86-0.16.21::gentoo  151 KiB
+[ebuild   R    ] dev-lang/luajit-2.0.4:2::gentoo  USE="-lua52compat" 828 KiB
+[ebuild   R    ] app-shells/quoter-3.0_p2::gentoo  0 KiB
+[ebuild   R    ] app-shells/push-2.0::gentoo  0 KiB
+[ebuild   R    ] media-libs/libdvbpsi-1.3.0-r1:0/10::gentoo  USE="-doc -static-libs" 0 KiB
+[ebuild   R    ] net-libs/http-parser-2.6.2:0/2.6.2::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-boot/os-prober-1.71::gentoo  0 KiB
+[ebuild   R    ] app-arch/unrar-5.4.5::gentoo  0 KiB
+[ebuild   R    ] app-arch/unace-2.5-r3:1::gentoo  136 KiB
+[ebuild   R    ] sys-kernel/linux-firmware-20161205::gentoo  USE="-savedconfig" 0 KiB
+[ebuild   R    ] sys-process/lsof-4.89::gentoo  USE="ipv6 -examples -rpc (-selinux) -static" 0 KiB
+[ebuild   R    ] app-arch/cabextract-1.6::gentoo  USE="-extras" 237 KiB
+[ebuild   R    ] sys-devel/binutils-config-5-r3::gentoo  0 KiB
+[ebuild   R    ] sys-libs/timezone-data-2017a::gentoo  USE="nls -leaps_timezone" 0 KiB
+[ebuild   R    ] app-text/docbook-dsssl-stylesheets-1.79::gentoo  272 KiB
+[ebuild   R    ] x11-base/xorg-drivers-1.19::gentoo  INPUT_DEVICES="evdev -acecad -aiptek -elographics -fpit -hyperpen -joystick -keyboard -libinput -mouse -mutouch -penmount -synaptics -tslib -vmmouse -void -wacom" VIDEO_CARDS="virtualbox -amdgpu -apm -ark -ast -chips -cirrus -dummy -epson -fbdev (-fglrx) (-freedreno) (-geode) -glint -i128 (-i740) -i915 -i965 -intel -mach64 -mga -neomagic (-newport) -nouveau -nv -nvidia (-omap) -qxl -r128 -radeon -radeonsi -rendition -s3 -s3virge -savage -siliconmotion -sis -sisusb (-sunbw2) (-suncg14) (-suncg3) (-suncg6) (-sunffb) (-sunleo) (-suntcx) -tdfx (-tegra) -tga -trident -tseng -vesa -via -vmware (-voodoo)" 0 KiB                                                                                                                                                                                                                                                                                                                                                                                                                                        
+[ebuild   R    ] virtual/pkgconfig-0-r1::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-db/mysql-init-scripts-2.1-r1::gentoo  0 KiB
+[ebuild   R    ] media-libs/sbc-1.3::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 241 KiB
+[ebuild   R    ] kde-frameworks/kf-env-4:5::gentoo  0 KiB
+[ebuild   R    ] virtual/jpeg-0-r2::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/pam-0-r1::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] net-mail/mailbase-1.1::gentoo  USE="pam" 0 KiB
+[ebuild   R    ] virtual/opengl-7.0-r1::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/udev-217::gentoo  USE="(systemd)" 0 KiB
+[ebuild   R    ] sys-fs/udev-init-scripts-32::gentoo  0 KiB
+[ebuild   R    ] virtual/dev-manager-0::gentoo  0 KiB
+[ebuild   R    ] dev-libs/libatasmart-0.19-r1::gentoo  USE="-static-libs" 252 KiB
+[ebuild   R    ] net-misc/dhcpcd-6.11.3::gentoo  USE="embedded ipv6 udev" 0 KiB
+[ebuild   R    ] virtual/libudev-215-r1:0/1::gentoo  USE="(systemd) (-static-libs)" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/libusb-1.0.19-r1:1::gentoo  USE="udev -debug -doc -examples (-static-libs) {-test}" ABI_X86="32 (64) (-x32)" 510 KiB
+[ebuild   R    ] virtual/libusb-1-r2:1::gentoo  USE="udev" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/libusb-compat-0.1.5-r2::gentoo  USE="-debug -examples -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/libusb-0-r2::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/acl-0-r2::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/os-headers-0::gentoo  0 KiB
+[ebuild   R    ] sys-apps/sysvinit-2.88-r9::gentoo  USE="(-ibm) (-selinux) -static" 0 KiB
+[ebuild   R    ] virtual/libffi-3.0.13-r1::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/ttf-fonts-1-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/libmysqlclient-18:0/18::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/perl-File-Spec-3.630.100_rc::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Data-Dumper-2.160.0-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/man-0-r1::gentoo  0 KiB
+[ebuild   R    ] sys-apps/man-pages-posix-2013a::gentoo  909 KiB
+[ebuild   R    ] sys-apps/man-pages-4.09::gentoo  USE="nls" L10N="-da -de -fr -it -ja -nl -pl -ro -ru -zh-CN" 0 KiB
+[ebuild   R    ] virtual/shadow-0::gentoo  0 KiB
+[ebuild   R    ] app-eselect/eselect-python-20160516::gentoo  0 KiB
+[ebuild   R    ] virtual/mysql-5.6-r6:0/18::gentoo  USE="-embedded -static -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/perl-Getopt-Long-2.480.0-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Test-Harness-3.360.100_rc::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-File-Temp-0.230.400-r5::gentoo  0 KiB
+[ebuild   R    ] virtual/modutils-0::gentoo  0 KiB
+[ebuild   R    ] virtual/editor-0::gentoo  0 KiB
+[ebuild   R    ] virtual/libc-1::gentoo  0 KiB
+[ebuild   R    ] app-admin/perl-cleaner-2.25::gentoo  0 KiB
+[ebuild   R    ] app-eselect/eselect-mesa-0.0.10-r1::gentoo  0 KiB
+[ebuild   R    ] sys-devel/clang-runtime-3.9.1::gentoo  USE="openmp -libcxx" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-eselect/eselect-qtgraphicssystem-1.1.1::gentoo  2 KiB
+[ebuild   R    ] app-eselect/eselect-fontconfig-1.1::gentoo  2 KiB
+[ebuild   R    ] net-misc/netifrc-0.5.1::gentoo  0 KiB
+[ebuild   R    ] virtual/tmpfiles-0::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Storable-2.560.100_rc::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Sys-Syslog-0.330.100_rc-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Time-HiRes-1.973.300-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Term-ANSIColor-4.40.0-r1::gentoo  0 KiB
+[ebuild   R    ] app-text/docbook-xsl-stylesheets-1.79.1-r1::gentoo  USE="-ruby" 0 KiB
+[ebuild   R    ] virtual/perl-ExtUtils-MakeMaker-7.100.200_rc::gentoo  0 KiB
+[ebuild   R    ] virtual/yacc-0::gentoo  0 KiB
+[ebuild   R    ] virtual/glu-9.0-r1::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-text/build-docbook-catalog-1.19.1::gentoo  5 KiB
+[ebuild   R    ] virtual/libgudev-230::gentoo  USE="introspection (-static-libs)" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/jdk-1.8.0-r3:1.8::gentoo  0 KiB
+[ebuild   R    ] virtual/jre-1.8.0-r1:1.8::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Scalar-List-Utils-1.420.200_rc-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/awk-1::gentoo  0 KiB
+[ebuild   R    ] virtual/freedesktop-icon-theme-0-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-MIME-Base64-3.150.0-r2::gentoo  0 KiB
+[ebuild   R    ] virtual/python-ipaddress-1.0-r1::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] virtual/eject-0::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Parse-CPAN-Meta-1.441.700.100_rc::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-CPAN-Meta-YAML-0.18.0-r1::gentoo  0 KiB
+[ebuild   R    ] app-eselect/eselect-pinentry-0.7::gentoo  0 KiB
+[ebuild   R    ] app-eselect/eselect-ruby-20131227::gentoo  2 KiB
+[ebuild   R    ] app-eselect/eselect-wxwidgets-20140423::gentoo  7 KiB
+[ebuild   R    ] app-eselect/eselect-package-manager-20110108::gentoo  2 KiB
+[ebuild   R    ] virtual/perl-libnet-3.80.100_rc::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Digest-SHA-5.950.100_rc-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Digest-MD5-2.540.0-r2::gentoo  0 KiB
+[ebuild   R    ] virtual/jpeg-62:62::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/notification-daemon-0::gentoo  USE="kde -gnome" 0 KiB
+[ebuild   R    ] virtual/linux-sources-3::gentoo  USE="-firmware" 0 KiB
+[ebuild   R    ] virtual/fortran-0::gentoo  USE="openmp" 0 KiB
+[ebuild   R    ] virtual/mta-1::gentoo  0 KiB
+[ebuild   R    ] virtual/logger-0::gentoo  0 KiB
+[ebuild   R    ] virtual/krb5-0-r1::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/fam-0-r1::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/perl-parent-0.234.0-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Exporter-5.720.0-r2::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Text-ParseWords-3.300.0-r2::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Perl-OSType-1.9.0-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-Module-Metadata-1.0.31-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-ExtUtils-ParseXS-3.310.0-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-ExtUtils-Manifest-1.700.0-r3::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-ExtUtils-Install-2.40.0-r2::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-ExtUtils-CBuilder-0.280.225-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-CPAN-Meta-2.150.5-r1::gentoo  0 KiB
+[ebuild   R    ] virtual/perl-version-0.991.600-r1::gentoo  0 KiB
+[ebuild   R    ] app-arch/xz-utils-5.2.3::gentoo  USE="nls threads -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/libltdl-2.4.6::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/gobject-introspection-common-1.50.0::gentoo  0 KiB
+[ebuild   R    ] sys-apps/net-tools-1.60_p20160215155418::gentoo  USE="arp hostname ipv6 nls -nis -plipconfig (-selinux) -slattach -static" 0 KiB
+[ebuild   R    ] app-portage/elt-patches-20170317::gentoo  0 KiB
+[ebuild   R    ] sys-devel/m4-1.4.17::gentoo  USE="-examples" 0 KiB
+[ebuild   R    ] dev-libs/vala-common-0.34.7::gentoo  0 KiB
+[ebuild   R    ] app-arch/rpm2targz-9.0.0.5g::gentoo  6 KiB
+[ebuild   R    ] dev-libs/expat-2.2.0-r1::gentoo  USE="unicode -examples -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-libs/gdbm-1.11::gentoo  USE="berkdb nls -exporter -static-libs" ABI_X86="32 (64) (-x32)" 793 KiB
+[ebuild   R    ] dev-libs/gmp-6.1.0:0/10.4::gentoo  USE="asm cxx -doc -pgo -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/libffi-3.2.1::gentoo  USE="-debug -pax_kernel -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] net-firewall/iptables-1.4.21-r1::gentoo  USE="ipv6 -conntrack -netlink -static-libs" 535 KiB
+[ebuild   R    ] dev-libs/libpipeline-1.4.0::gentoo  USE="-static-libs {-test}" 787 KiB
+[ebuild   R    ] media-libs/libogg-1.3.2::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/giflib-5.1.4:0/7::gentoo  USE="-doc -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/glu-9.0.0-r1::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 482 KiB
+[ebuild   R    ] sys-fs/fuse-2.9.7::gentoo  USE="-examples -static-libs" 0 KiB
+[ebuild   R    ] dev-libs/npth-1.3::gentoo  USE="-static-libs" 0 KiB
+[ebuild   R    ] sys-libs/libunwind-1.1-r1:7::gentoo  USE="-debug -debug-frame -libatomic -lzma -static-libs" 0 KiB
+[ebuild   R    ] dev-libs/libyaml-0.1.7::gentoo  USE="-doc -examples -static-libs {-test}" 0 KiB
+[ebuild   R    ] net-libs/libasyncns-0.8-r3::gentoo  USE="-debug -doc" ABI_X86="32 (64) (-x32)" 334 KiB
+[ebuild   R    ] sci-libs/fftw-3.3.4:3.0/3::gentoo  USE="fortran openmp (-altivec) -doc -mpi (-neon) -quad -static-libs {-test} -threads (-zbus)" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="sse sse2 -avx -fma3 -fma4" 3,849 KiB
+[ebuild   R    ] media-libs/libdvdcss-1.3.0:1.2::gentoo  USE="-doc -static-libs" ABI_X86="32 (64) (-x32)" 348 KiB
+[ebuild   R    ] media-libs/libmms-0.6.4::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 348 KiB
+[ebuild   R    ] dev-libs/mpfr-3.1.3_p4::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 1,087 KiB
+[ebuild   R    ] dev-util/google-perftools-2.0-r2:0/4::gentoo  USE="debug -largepages -minimal -static-libs {-test}" 1,232 KiB
+[ebuild   R    ] dev-libs/mpc-1.0.2-r1::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 619 KiB
+[ebuild   R    ] app-eselect/eselect-opengl-1.3.1-r4::gentoo  3 KiB
+[ebuild   R    ] app-eselect/eselect-lib-bin-symlink-0.1.1::gentoo  45 KiB
+[ebuild   R    ] app-eselect/eselect-mpg123-0.1::gentoo  0 KiB
+[ebuild   R    ] app-eselect/eselect-cdparanoia-0.1::gentoo  0 KiB
+[ebuild   R    ] app-eselect/eselect-notify-send-0.1::gentoo  0 KiB
+[ebuild   R    ] sys-apps/sed-4.2.2::gentoo  USE="acl nls (-selinux) -static" 0 KiB
+[ebuild   R    ] x11-themes/hicolor-icon-theme-0.15::gentoo  50 KiB
+[ebuild   R    ] kde-frameworks/kdelibs-env-4.14.3:4/4.14::gentoo  USE="(-aqua)" 0 KiB
+[ebuild   R    ] sys-apps/baselayout-java-0.1.0::gentoo  71 KiB
+[ebuild   R    ] sys-devel/make-4.2.1::gentoo  USE="nls -guile -static" 0 KiB
+[ebuild   R    ] x11-misc/shared-mime-info-1.4::gentoo  USE="{-test}" 526 KiB
+[ebuild   R    ] dev-util/desktop-file-utils-0.23::gentoo  USE="-emacs" 0 KiB
+[ebuild   R    ] dev-libs/libsigc++-2.10.0:2::gentoo  USE="-doc -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] gnome-base/gnome-common-3.18.0-r1:3::gentoo  USE="autoconf-archive" 0 KiB
+[ebuild   R    ] x11-libs/gnome-pty-helper-0.40.2::gentoo  USE="hardened" 0 KiB
+[ebuild   R    ] net-libs/libndp-1.6-r1::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-libs/libX11-1.6.5::gentoo  USE="ipv6 -doc -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] dev-qt/qtwidgets-5.7.1:5/5.7::gentoo  USE="png xcb -debug -gles2 {-test}" 0 KiB
+[ebuild   R    ] dev-libs/glib-2.50.3-r1:2::gentoo  USE="dbus (mime) xattr -debug (-fam) (-selinux) -static-libs -systemtap {-test} -utils" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] dev-util/pkgconfig-0.28-r2::gentoo  USE="-hardened -internal-glib" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-cpp/glibmm-2.50.0:2::gentoo  USE="-debug -doc {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-libs/zlib-1.2.11::gentoo  USE="minizip -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/libpng-1.6.27:0/16::gentoo  USE="apng (-neon) -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-apps/file-5.29::gentoo  USE="zlib -python -static-libs" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] sys-apps/kmod-23::gentoo  USE="tools zlib -debug -doc -lzma -python -static-libs" PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild   R    ] sys-libs/cracklib-2.9.6-r1::gentoo  USE="nls zlib -python -static-libs {-test}" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] dev-libs/boost-1.62.0-r1:0/1.62.0::gentoo  USE="nls threads -context -debug -doc -icu -mpi -python -static-libs -tools" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild   R    ] dev-libs/xapian-1.2.24:0/1.2.22::gentoo  USE="brass chert inmemory -doc -static-libs" CPU_FLAGS_X86="sse sse2" 0 KiB
+[ebuild   R    ] dev-vcs/cvs-1.12.12-r11::gentoo  USE="crypt nls pam -doc -kerberos -server" 0 KiB
+[ebuild   R    ] media-libs/freetype-2.7.1-r2:2::gentoo  USE="X adobe-cff bindist bzip2 cleartype_hinting png -debug -doc -fontforge -harfbuzz -infinality -static-libs -utils" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/jbig2dec-0.13-r1::gentoo  USE="png -static-libs {-test}" 0 KiB
+[ebuild   R    ] dev-libs/librevenge-0.0.4-r1::gentoo  USE="-doc {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-text/libwpd-0.10.1:0.10::gentoo  USE="tools -doc" 0 KiB
+[ebuild   R    ] app-text/libwpg-0.3.1:0.3::gentoo  USE="-doc -static-libs" 0 KiB
+[ebuild   R    ] sys-apps/pciutils-3.4.1::gentoo  USE="kmod udev zlib -dns (-static-libs)" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] dev-qt/qtdbus-5.7.1:5/5.7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kcoreaddons-5.33.0:5/5.33::gentoo  USE="nls -debug (-fam) {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/ki18n-5.33.0:5/5.33::gentoo  USE="-debug {-test}" PYTHON_SINGLE_TARGET="python3_4* -python2_7* -python3_5" PYTHON_TARGETS="python2_7 python3_4 -python3_5" 0 KiB
+[ebuild   R    ] x11-proto/xproto-7.0.31::gentoo  USE="-doc" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] kde-frameworks/kconfig-5.33.0:5/5.33::gentoo  USE="nls -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kwidgetsaddons-5.33.0:5/5.33::gentoo  USE="nls -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kconfigwidgets-5.33.0:5/5.33::gentoo  USE="man -debug {-test}" 0 KiB
+[ebuild   R   ~] dev-qt/qtx11extras-5.7.1:5/5.7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] dev-qt/qtxml-5.7.1:5/5.7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kwindowsystem-5.33.0:5/5.33::gentoo  USE="X nls -debug {-test}" 0 KiB
+[ebuild   R    ] dev-libs/libxml2-2.9.4-r1:2::gentoo  USE="ipv6 python readline -debug -examples -icu -lzma -static-libs {-test}" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild   R    ] dev-libs/wayland-1.12.0::gentoo  USE="-doc -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-text/scrollkeeper-dtd-1.0:1.0::gentoo  11 KiB
+[ebuild   R    ] dev-libs/wayland-protocols-1.7::gentoo  0 KiB
+[ebuild   R    ] x11-libs/libxcb-1.12-r2:0/1.12::gentoo  USE="xkb -doc (-selinux) -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] kde-frameworks/kiconthemes-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R    ] sys-libs/ncurses-6.0-r1:0/6::gentoo  USE="cxx gpm unicode -ada -debug -doc -minimal -profile -static-libs {-test} -threads -tinfo -trace" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-devel/gettext-0.19.8.1::gentoo  USE="acl cxx ncurses nls openmp -cvs -doc -emacs -git -java -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-libs/readline-6.3_p8-r3::gentoo  USE="-static-libs -utils" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-libs/libstatgrab-0.17::gentoo  USE="-static-libs" 0 KiB
+[ebuild   R    ] dev-libs/libpcre-8.40-r1:3::gentoo  USE="bzip2 cxx jit pcre16 readline recursion-limit (unicode) zlib -libedit -pcre32 -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/popt-1.16-r2::gentoo  USE="nls -static-libs" ABI_X86="32 (64) (-x32)" 687 KiB
+[ebuild   R    ] dev-libs/libgpg-error-1.27-r1::gentoo  USE="nls -common-lisp -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-shells/bash-4.3_p48-r1::gentoo  USE="net nls (readline) -afs -bashlogger -examples -mem-scramble -plugins" 0 KiB
+[ebuild   R    ] sys-apps/gawk-4.1.3::gentoo  USE="nls readline -mpfr" 0 KiB
+[ebuild   R    ] net-dns/libidn-1.33::gentoo  USE="nls -doc -emacs -java -mono -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-libs/e2fsprogs-libs-1.43.3::gentoo  USE="nls -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-editors/nano-2.6.3::gentoo  USE="magic ncurses nls spell unicode -debug -justify -minimal -slang -static" 0 KiB
+[ebuild   R    ] sys-libs/binutils-libs-2.27:0/2.27::gentoo  USE="nls -64-bit-bfd -multitarget -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-apps/findutils-4.6.0-r1::gentoo  USE="nls (-selinux) -static {-test}" 0 KiB
+[ebuild   R    ] sys-apps/diffutils-3.5::gentoo  USE="nls -static" 0 KiB
+[ebuild   R    ] sys-devel/flex-2.6.1::gentoo  USE="nls -static {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-lang/yasm-1.3.0::gentoo  USE="nls -python" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] media-libs/libexif-0.6.21-r1::gentoo  USE="nls -doc -static-libs" ABI_X86="32 (64) (-x32)" 1,337 KiB
+[ebuild   R    ] dev-libs/libcdio-0.93:0/15::gentoo  USE="cxx -cddb -minimal -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/libv4l-1.10.1::gentoo  USE="jpeg" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/libpwquality-1.3.0::gentoo  USE="pam -python -static-libs" PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild   R    ] app-text/opensp-1.5.2-r3::gentoo  USE="nls -doc -static-libs {-test}" 1,486 KiB
+[ebuild   R    ] sys-apps/mlocate-0.26-r2::gentoo  USE="nls (-selinux)" 0 KiB
+[ebuild   R    ] app-portage/eix-0.32.4::gentoo  USE="nls -debug -doc -sqlite" LINGUAS="-de -ru" 0 KiB
+[ebuild   R    ] sys-devel/binutils-2.26.1:2.26.1::gentoo  USE="cxx nls -multitarget -static-libs {-test} -vanilla" 0 KiB
+[ebuild   R    ] sys-devel/bc-1.06.95-r1::gentoo  USE="readline -libedit -static" 284 KiB
+[ebuild   R    ] sys-apps/grep-2.27-r1::gentoo  USE="nls pcre -static" 0 KiB
+[ebuild   R    ] sys-apps/less-487::gentoo  USE="pcre unicode" 0 KiB
+[ebuild   R    ] app-text/qpdf-5.1.1-r1:0/13::gentoo  USE="-doc -examples -perl -static-libs {-test}" 0 KiB
+[ebuild   R    ] sys-devel/bison-3.0.4-r1::gentoo  USE="nls -examples -static {-test}" 1,928 KiB
+[ebuild   R    ] media-libs/x264-0.0.20160712:0/148::gentoo  USE="interlaced threads -10bit -opencl -pic -static-libs" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="sse" 0 KiB
+[ebuild   R    ] dev-libs/libassuan-2.4.3-r1::gentoo  USE="-static-libs" 0 KiB
+[ebuild   R    ] dev-libs/elfutils-0.166::gentoo  USE="bzip2 nls static-libs utils -lzma {-test} (-threads)" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/libksba-1.3.5-r1::gentoo  USE="-static-libs" 0 KiB
+[ebuild   R    ] dev-lang/swig-3.0.8::gentoo  USE="pcre -ccache -doc" 0 KiB
+[ebuild   R    ] sys-libs/slang-2.3.0::gentoo  USE="pcre png readline zlib -cjk -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] virtual/pager-0::gentoo  0 KiB
+[ebuild   R    ] dev-libs/libnl-3.2.28:3::gentoo  USE="-python -static-libs -utils" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 7 KiB
+[ebuild   R    ] sys-power/iasl-20160729::gentoo  USE="{-test}" 0 KiB
+[ebuild   R    ] media-libs/xvid-1.3.3::gentoo  USE="threads -examples -pic" ABI_X86="32 (64) (-x32)" 679 KiB
+[ebuild   R    ] media-libs/libcue-1.4.0::gentoo  USE="-static-libs" 244 KiB
+[ebuild   R    ] x11-themes/adwaita-icon-theme-3.22.0-r1::gentoo  USE="branding" 0 KiB
+[ebuild   R    ] dev-libs/openssl-1.0.2k::gentoo  USE="asm bindist sslv3 tls-heartbeat zlib -gmp -kerberos -rfc3779 -sctp -sslv2 -static-libs {-test} -vanilla" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="(sse2)" 0 KiB
+[ebuild   R    ] net-misc/wget-1.19.1-r1::gentoo  USE="ipv6 nls pcre ssl zlib -debug -gnutls -idn (-libressl) -ntlm -static {-test} -uuid" 0 KiB
+[ebuild   R    ] net-misc/iputils-20151218::gentoo  USE="ipv6 ssl -SECURITY_HAZARD -arping -caps -clockdiff -doc -filecaps -gcrypt -idn (-libressl) -rarpd -rdisc -static -tftpd -tracepath -traceroute" 0 KiB
+[ebuild   R    ] app-text/wgetpaste-2.28::gentoo  0 KiB
+[ebuild   R   ~] kde-frameworks/kdbusaddons-5.33.0:5/5.33::gentoo  USE="X nls -debug {-test}" 0 KiB
+[ebuild   R    ] dev-libs/gobject-introspection-1.50.0::gentoo  USE="cairo -doctool {-test}" PYTHON_SINGLE_TARGET="python3_4* -python2_7* (-python3_5)" PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild   R    ] x11-proto/xextproto-7.3.0::gentoo  USE="-doc" ABI_X86="32 (64) (-x32)" 224 KiB
+[ebuild   R    ] x11-libs/libXext-1.3.3::gentoo  USE="-doc -static-libs" ABI_X86="32 (64) (-x32)" 381 KiB
+[ebuild   R    ] x11-libs/libXrender-0.9.10::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/fontconfig-2.11.1-r2:1.0::gentoo  USE="-doc -static-libs" ABI_X86="32 (64) (-x32)" 1,481 KiB
+[ebuild   R    ] x11-libs/libXt-1.1.5::gentoo  USE="-static-libs {-test%}" ABI_X86="32 (64) (-x32)" 754 KiB
+[ebuild   R    ] x11-libs/gtk+-3.22.11:3::gentoo  USE="X cups introspection wayland xinerama (-aqua) -broadway -cloudprint -colord -examples {-test} -vim-syntax" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-libs/libSM-1.2.2-r1::gentoo  USE="ipv6 uuid -doc -static-libs" ABI_X86="32 (64) (-x32)" 341 KiB
+[ebuild   R    ] x11-libs/libICE-1.0.9-r1::gentoo  USE="ipv6 -doc -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] kde-frameworks/karchive-5.33.0:5/5.33::gentoo  USE="bzip2 lzma -debug {-test}" 0 KiB
+[ebuild   R    ] x11-libs/libXfixes-5.0.3::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-libs/libXmu-1.1.2::gentoo  USE="ipv6 -doc -static-libs" ABI_X86="32 (64) (-x32)" 387 KiB
+[ebuild   R    ] x11-libs/libXi-1.7.9::gentoo  USE="-doc -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/glew-1.10.0-r2:0/1.10::gentoo  USE="-doc -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] kde-frameworks/kcrash-5.33.0:5/5.33::gentoo  USE="nls -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kitemviews-5.33.0:5/5.33::gentoo  USE="nls -debug {-test}" 0 KiB
+[ebuild   R    ] media-libs/tiff-4.0.7::gentoo  USE="cxx jpeg zlib -jbig -lzma -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/lcms-2.8-r1:2::gentoo  USE="jpeg threads tiff zlib -doc -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/libmng-2.0.2-r1:0/2::gentoo  USE="lcms -static-libs" ABI_X86="32 (64) (-x32)" 930 KiB
+[ebuild   R    ] dev-qt/qtgui-4.8.6-r4:4::gentoo  USE="accessibility cups exceptions glib mng qt3support tiff xinerama xv (-aqua) -debug -egl -gtkstyle -nas -nis -pch -trace" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] dev-qt/qtsvg-5.7.1:5/5.7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R    ] x11-libs/cairo-1.14.8::gentoo  USE="X glib opengl svg xcb (-aqua) -debug (-directfb) (-gles2) -static-libs -valgrind" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-cpp/cairomm-1.12.0-r1::gentoo  USE="X svg (-aqua) -doc" ABI_X86="32 (64) (-x32)" 772 KiB
+[ebuild   R    ] sys-kernel/linux-headers-4.4::gentoo  0 KiB
+[ebuild   R    ] dev-libs/libbsd-0.8.3::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-libs/libseccomp-2.3.0::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-apps/busybox-1.25.1::gentoo  USE="ipv6 static systemd -debug -livecd -make-symlinks -math -mdev -pam -savedconfig (-selinux) -sep-usr -syslog" 0 KiB
+[ebuild   R    ] sys-apps/keyutils-1.5.9-r1::gentoo  USE="{-test}" ABI_X86="32 (64) (-x32)" 73 KiB
+[ebuild   R    ] sys-libs/mtdev-1.1.5::gentoo  USE="-static-libs" 268 KiB
+[ebuild   R    ] sys-libs/efivar-30:0/1::gentoo  72 KiB
+[ebuild   R    ] app-misc/pax-utils-1.1.7::gentoo  USE="seccomp -caps -debug -python" 0 KiB
+[ebuild   R    ] sys-boot/efibootmgr-14::gentoo  0 KiB
+[ebuild   R    ] sys-apps/sandbox-2.10-r3::gentoo  ABI_X86="(32) (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-apps/attr-2.4.47-r2::gentoo  USE="nls -static-libs" ABI_X86="32 (64) (-x32)" 336 KiB
+[ebuild   R    ] sys-libs/libcap-2.24-r2::gentoo  USE="pam -static-libs" ABI_X86="32 (64) (-x32)" 62 KiB
+[ebuild   R    ] sys-apps/acl-2.2.52-r1::gentoo  USE="nls -static-libs" ABI_X86="32 (64) (-x32)" 378 KiB
+[ebuild   R    ] app-arch/tar-1.29-r1::gentoo  USE="acl nls xattr -minimal (-selinux) -static" 0 KiB
+[ebuild   R    ] net-misc/rsync-3.1.2::gentoo  USE="acl iconv ipv6 xattr -static -stunnel" 872 KiB
+[ebuild   R    ] sys-devel/patch-2.7.5::gentoo  USE="xattr -static {-test}" 711 KiB
+[ebuild   R    ] sys-fs/ntfs3g-2016.2.22-r2:0/87::gentoo  USE="acl external-fuse ntfsprogs xattr -debug -ntfsdecrypt -static-libs -suid" 0 KiB
+[ebuild   R    ] sys-apps/coreutils-8.25::gentoo  USE="acl nls xattr -caps -gmp -hostname -kill -multicall (-selinux) -static -vanilla" 0 KiB
+[ebuild   R    ] app-admin/eselect-1.4.8::gentoo  USE="-doc -emacs -vim-syntax" 0 KiB
+[ebuild   R    ] app-eselect/eselect-cblas-0.1::gentoo  0 KiB
+[ebuild   R    ] x11-libs/gdk-pixbuf-2.36.5:2::gentoo  USE="X introspection jpeg tiff -debug -jpeg2k {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-util/gtk-update-icon-cache-3.22.2::gentoo  0 KiB
+[ebuild   R    ] x11-libs/libXcursor-1.1.14::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 305 KiB
+[ebuild   R    ] x11-proto/inputproto-2.3.2::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] kde-frameworks/kcodecs-5.33.0:5/5.33::gentoo  USE="nls -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kguiaddons-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R    ] x11-proto/xf86vidmodeproto-2.3.1-r1::gentoo  ABI_X86="32 (64) (-x32)" 95 KiB
+[ebuild   R    ] dev-qt/qtdbus-4.8.6-r1:4::gentoo  USE="exceptions (-aqua) -debug -pch" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-apps/util-linux-2.28.2::gentoo  USE="cramfs ncurses nls pam readline suid systemd udev unicode -build -caps -fdformat -kill -python (-selinux) -slang -static-libs {-test} -tty-helpers" ABI_X86="32 (64) (-x32)" PYTHON_SINGLE_TARGET="python3_4* -python2_7* (-python3_5)" PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild   R    ] sys-apps/gptfdisk-1.0.1::gentoo  USE="ncurses -static" 0 KiB
+[ebuild   R    ] sys-apps/systemd-226-r2:0/2::gentoo  USE="acl kdbus kmod lz4 pam (policykit) seccomp ssl (-apparmor) -audit -build -cryptsetup -curl -elfutils -gcrypt -gnuefi -http -idn -importd -lzma -nat -qrcode (-selinux) -sysv-utils {-test} -vanilla -xkb" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-process/procps-3.3.12:0/5::gentoo  USE="kill ncurses nls systemd unicode -modern-top (-selinux) -static-libs {-test}" 0 KiB
+[ebuild   R    ] sys-apps/gentoo-systemd-integration-6::gentoo  63 KiB
+[ebuild   R    ] sys-apps/dbus-1.10.12::gentoo  USE="X systemd -debug -doc (-selinux) -static-libs {-test} -user-session" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/dbus-glib-0.102::gentoo  USE="-debug -doc -static-libs {-test}" ABI_X86="32 (64) (-x32)" 766 KiB
+[ebuild   R    ] x11-libs/libXrandr-1.5.1::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/libgcrypt-1.7.6:0/20::gentoo  USE="-doc -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/libmtp-1.1.12:0/9::gentoo  USE="crypt -doc -examples -static-libs" 0 KiB
+[ebuild   R    ] dev-db/sqlite-3.17.0:3::gentoo  USE="readline -debug -doc -icu -secure-delete -static-libs -tcl {-test} -tools" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-lang/python-2.7.12:2.7::gentoo  USE="gdbm ipv6 ncurses readline sqlite ssl (threads) (wide-unicode) xml (-berkdb) -build -doc -examples -hardened (-libressl) -tk -wininst" 0 KiB
+[ebuild   R    ] dev-util/scons-2.4.1::gentoo  USE="-doc" PYTHON_TARGETS="python2_7 (-pypy)" 0 KiB
+[ebuild   R    ] dev-util/itstool-2.0.2::gentoo  PYTHON_TARGETS="python2_7" 95 KiB
+[ebuild   R   ~] dev-libs/double-conversion-2.0.1:0/1::gentoo  USE="-static-libs" 0 KiB
+[ebuild   R    ] dev-vcs/bzr-2.5.1-r1::gentoo  USE="sftp -curl -doc {-test}" PYTHON_TARGETS="python2_7" 10,207 KiB
+[ebuild   R    ] dev-vcs/mercurial-3.8.4::gentoo  USE="-bugzilla -emacs -gpg {-test} -tk" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] dev-lang/python-3.4.5:3.4/3.4m::gentoo  USE="gdbm ipv6 ncurses readline sqlite ssl (threads) xml -build -examples -hardened (-libressl) -tk -wininst" 0 KiB
+[ebuild   R    ] app-misc/ca-certificates-20161102.3.27.2-r2::gentoo  USE="-cacert -insecure_certs" 0 KiB
+[ebuild   R    ] dev-util/gdbus-codegen-2.50.3::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild   R    ] dev-python/six-1.10.0::gentoo  USE="-doc {-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-util/ninja-1.6.0::gentoo  USE="-doc -emacs {-test} -vim-syntax -zsh-completion" 171 KiB
+[ebuild   R    ] app-text/iso-codes-3.74::gentoo  LINGUAS="-af -am -ar -as -ast -az -be -bg -bn -bn_IN -br -bs -byn -ca -crh -cs -cy -da -de -dz -el -en -eo -es -et -eu -fa -fi -fo -fr -ga -gez -gl -gu -haw -he -hi -hr -hu -hy -ia -id -is -it -ja -ka -kk -km -kn -ko -kok -ku -lt -lv -mi -mk -ml -mn -mr -ms -mt -nb -ne -nl -nn -nso -oc -or -pa -pl -ps -pt -pt_BR -ro -ru -rw -si -sk -sl -so -sq -sr -sr@latin -sv -sw -ta -te -th -ti -tig -tk -tl -tr -tt -tt@iqtelif -ug -uk -ve -vi -wa -wal -wo -xh -zh_CN -zh_HK -zh_TW -zu" 0 KiB
+[ebuild   R    ] dev-python/sip-4.19.1:0/12::gentoo  USE="-debug -doc" PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/colorama-0.3.3::gentoo  USE="-examples" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/pyparsing-2.1.10::gentoo  USE="-doc -examples" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/mimeparse-0.1.4-r1::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] app-misc/media-player-info-22::gentoo  103 KiB
+[ebuild   R    ] dev-python/pyxdg-0.25-r1::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/PySocks-1.5.6::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/backports-1.0::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] app-portage/cpuid2cpuflags-1::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy)" 0 KiB
+[ebuild   R    ] dev-python/packaging-16.6::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/setuptools-30.4.0::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/pyxattr-0.5.5::gentoo  USE="-doc {-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5)" 0 KiB
+[ebuild   R    ] dev-python/pbr-1.10.0::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/pyasn1-0.1.8::gentoo  USE="-doc" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/certifi-2016.9.26::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/numpy-1.10.4::gentoo  USE="-doc -lapack {-test}" PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/extras-0.0.3::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/idna-2.0::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/progress-1.2::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/retrying-1.3.3::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/html5lib-0.9999999::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/pygments-2.1.1::gentoo  USE="-doc {-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/m2crypto-0.24.0::gentoo  USE="(-libressl)" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] dev-python/py-1.4.30::gentoo  USE="-doc {-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/chardet-2.3.0::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/backports-ssl-match-hostname-3.5.0.1-r1::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/enum34-1.1.6::gentoo  USE="-doc" PYTHON_TARGETS="python2_7 (-pypy) (-pypy3)" 0 KiB
+[ebuild   R    ] dev-python/ply-3.9::gentoo  USE="-examples" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/ipaddress-1.0.14::gentoo  PYTHON_TARGETS="python2_7 (-pypy) (-pypy3)" 30 KiB
+[ebuild   R    ] sys-apps/portage-2.3.3::gentoo  USE="(ipc) native-extensions xattr -build -doc -epydoc (-selinux)" LINGUAS="-ru" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/lockfile-0.11.0-r1::gentoo  USE="-doc {-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/linecache2-1.0.0::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/docutils-0.12::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] net-wireless/crda-3.18-r1::gentoo  USE="-gcrypt (-libressl)" 0 KiB
+[ebuild   R    ] dev-python/pycparser-2.14::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] virtual/package-manager-0::gentoo  0 KiB
+[ebuild   R    ] dev-java/java-config-2.2.0-r3:2::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild   R    ] dev-python/traceback2-1.4.0::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/cffi-1.9.1:0/1.9.1::gentoo  USE="-doc {-test}" PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] app-portage/gentoopm-0.2.9::gentoo  USE="-doc" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5)" 0 KiB
+[ebuild   R    ] app-portage/gentoolkit-0.3.3::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5)" 0 KiB
+[ebuild   R    ] dev-python/cryptography-1.7.1::gentoo  USE="(-libressl) {-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/unittest2-1.1.0::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] app-portage/smart-live-rebuild-1.3.4.1::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild   R    ] dev-python/pyopenssl-16.2.0::gentoo  USE="-doc -examples {-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/testtools-1.8.0::gentoo  USE="-doc {-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/paramiko-2.1.2::gentoo  USE="-doc -examples" PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/ndg-httpsclient-0.4.0::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/urllib3-1.16::gentoo  USE="-doc {-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/requests-2.12.5::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/CacheControl-0.11.5::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/ssl-fetch-0.4::gentoo  PYTHON_TARGETS="python2_7 python3_4 -pypy -python3_5" 0 KiB
+[ebuild   R    ] x11-libs/libXinerama-1.1.3::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 272 KiB
+[ebuild   R    ] x11-libs/libXtst-1.2.3::gentoo  USE="-doc -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] net-nds/openldap-2.4.44::gentoo  USE="berkdb crypt ipv6 minimal ssl syslog tcpd -cxx -debug -experimental -gnutls -iodbc -kerberos -kinit (-libressl) -odbc -overlays -perl -samba -sasl (-selinux) -slp -smbkrb5passwd -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] kde-frameworks/kauth-5.33.0:5/5.33::gentoo  USE="nls (policykit) -debug {-test}" 0 KiB
+[ebuild   R    ] sys-libs/db-5.3.28-r2:5.3::gentoo  USE="cxx -doc -examples -java -tcl {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-lang/perl-5.24.1-r1:0/5.24::gentoo  USE="berkdb gdbm -debug -doc -ithreads" 0 KiB
+[ebuild   R    ] sys-apps/hwids-20150717-r1::gentoo  USE="net pci udev usb" 1,705 KiB
+[ebuild   R    ] dev-perl/TermReadKey-2.330.0::gentoo  0 KiB
+[ebuild   R    ] dev-perl/Text-Unidecode-1.270.0::gentoo  0 KiB
+[ebuild   R    ] dev-perl/Unicode-EastAsianWidth-1.330.0-r1::gentoo  0 KiB
+[ebuild   R    ] dev-perl/libintl-perl-1.240.0::gentoo  0 KiB
+[ebuild   R    ] dev-perl/Net-Daemon-0.480.0-r1::gentoo  0 KiB
+[ebuild   R    ] perl-core/File-Temp-0.230.400-r1::gentoo  0 KiB
+[ebuild   R    ] sys-devel/autoconf-2.69:2.5::gentoo  USE="-emacs (-multislot%)" 1,187 KiB
+[ebuild   R    ] dev-util/gtk-doc-am-1.25-r1::gentoo  0 KiB
+[ebuild   R    ] dev-perl/Module-Build-0.421.600::gentoo  USE="{-test}" 0 KiB
+[ebuild   R    ] dev-perl/URI-1.710.0::gentoo  USE="{-test}" 0 KiB
+[ebuild   R    ] dev-perl/Locale-gettext-1.50.0-r1::gentoo  0 KiB
+[ebuild   R    ] dev-lang/nasm-2.12.01::gentoo  USE="-doc" 0 KiB
+[ebuild   R    ] sys-kernel/gentoo-sources-4.9.16:4.9.16::gentoo  USE="-build -experimental -symlink" 0 KiB
+[ebuild   R    ] dev-perl/XML-Parser-2.440.0::gentoo  0 KiB
+[ebuild   R    ] dev-perl/TimeDate-2.300.0::gentoo  0 KiB
+[ebuild   R    ] dev-perl/SGMLSpm-1.03-r7::gentoo  0 KiB
+[ebuild   R    ] dev-perl/Text-CharWidth-0.40.0-r1::gentoo  0 KiB
+[ebuild   R    ] dev-perl/Digest-HMAC-1.30.0-r1::gentoo  0 KiB
+[ebuild   R    ] dev-perl/Net-SSLeay-1.800.0::gentoo  USE="-examples (-libressl) -minimal {-test}" 0 KiB
+[ebuild   R    ] virtual/perl-JSON-PP-2.273.0.100_rc-r1::gentoo  0 KiB
+[ebuild   R    ] app-text/dos2unix-7.3.4::gentoo  USE="nls -debug {-test}" LINGUAS="-da -de -eo -es -fr -hu -ja -nb -nl -pl -pt_BR -ru -sr -sv -uk -vi -zh_CN -zh_TW" 0 KiB
+[ebuild   R    ] dev-libs/atk-2.22.0::gentoo  USE="introspection nls {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-apps/texinfo-6.1::gentoo  USE="nls -static" 0 KiB
+[ebuild   R    ] dev-perl/File-BaseDir-0.30.0-r1::gentoo  USE="{-test}" 0 KiB
+[ebuild   R    ] media-libs/libjpeg-turbo-1.5.0::gentoo  USE="-java -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/libcroco-0.6.11:0.6::gentoo  USE="{-test}" ABI_X86="32 (64) (-x32)" 467 KiB
+[ebuild   R    ] dev-perl/PlRPC-0.202.0-r2::gentoo  0 KiB
+[ebuild   R    ] dev-util/intltool-0.51.0-r1::gentoo  159 KiB
+[ebuild   R    ] sys-apps/help2man-1.46.6::gentoo  USE="nls" 168 KiB
+[ebuild   R    ] media-libs/gstreamer-0.10.36-r2:0.10::gentoo  USE="introspection nls orc {-test}" ABI_X86="32 (64) (-x32)" 2,955 KiB
+[ebuild   R    ] dev-lang/orc-0.4.26-r1::gentoo  USE="-examples -pax_kernel -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-libs/libnotify-0.7.7::gentoo  USE="introspection {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] net-libs/libmbim-1.14.0::gentoo  USE="udev -static-libs" 0 KiB
+[ebuild   R    ] dev-perl/Text-WrapI18N-0.60.0-r1::gentoo  0 KiB
+[ebuild   R    ] gnome-base/libgtop-2.34.2:2/10::gentoo  USE="introspection" 0 KiB
+[ebuild   R    ] dev-perl/Error-0.170.240::gentoo  USE="{-test}" 0 KiB
+[ebuild   R    ] dev-perl/Authen-SASL-2.160.0-r1::gentoo  USE="-kerberos" 0 KiB
+[ebuild   R    ] dev-perl/IO-Socket-SSL-2.24.0::gentoo  USE="-idn" 0 KiB
+[ebuild   R    ] dev-libs/libgudev-230-r1::gentoo  USE="introspection (-static-libs)" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/libtasn1-4.10-r1:0/6::gentoo  USE="-doc -static-libs -valgrind" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-fs/e2fsprogs-1.43.3-r1::gentoo  USE="nls -fuse -static-libs" 0 KiB
+[ebuild   R    ] app-accessibility/at-spi2-core-2.22.1:2::gentoo  USE="X introspection" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-perl/File-DesktopEntry-0.40.0-r1::gentoo  USE="{-test}" 0 KiB
+[ebuild   R    ] dev-perl/DBI-1.636.0::gentoo  USE="-examples {-test}" 0 KiB
+[ebuild   R    ] sys-devel/automake-1.15:1.15::gentoo  1,462 KiB
+[ebuild   R    ] xfce-base/libxfce4util-4.12.1-r1:0/7::gentoo  USE="-debug" 0 KiB
+[ebuild   R    ] gnome-base/gsettings-desktop-schemas-3.22.0::gentoo  USE="introspection" 0 KiB
+[ebuild   R    ] dev-cpp/atkmm-2.24.2::gentoo  USE="-doc" ABI_X86="32 (64) (-x32)" 830 KiB
+[ebuild   R    ] lxde-base/lxmenu-data-0.1.5::gentoo  0 KiB
+[ebuild   R    ] sys-devel/autoconf-2.13:2.1::gentoo  434 KiB
+[ebuild   R    ] media-libs/gst-plugins-base-0.10.36-r2:0.10::gentoo  USE="introspection nls orc" ABI_X86="32 (64) (-x32)" 2,309 KiB
+[ebuild   R    ] x11-themes/sound-theme-freedesktop-0.8::gentoo  468 KiB
+[ebuild   R    ] net-libs/libqmi-1.16.2:0/5.1::gentoo  USE="mbim -doc -static-libs" 0 KiB
+[ebuild   R    ] dev-perl/Net-SMTP-SSL-1.30.0::gentoo  USE="{-test}" 0 KiB
+[ebuild   R    ] app-accessibility/at-spi2-atk-2.22.0:2::gentoo  USE="{-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-perl/File-MimeInfo-0.270.0::gentoo  USE="{-test}" 0 KiB
+[ebuild   R    ] dev-perl/DBD-mysql-4.41.0::gentoo  USE="ssl -embedded {-test}" 0 KiB
+[ebuild   R    ] sys-devel/libtool-2.4.6-r3:2::gentoo  USE="-vanilla" 0 KiB
+[ebuild   R    ] app-arch/libarchive-3.2.2-r1:0/13::gentoo  USE="acl bzip2 e2fsprogs iconv lzma threads xattr zlib -expat (-libressl) -lz4 -lzo -nettle -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] xfce-base/xfconf-4.12.0-r1::gentoo  USE="-debug -perl" 530 KiB
+[ebuild   R    ] app-crypt/p11-kit-0.23.2::gentoo  USE="asn1 libffi trust -debug" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-proto/xineramaproto-1.2.1-r1::gentoo  ABI_X86="32 (64) (-x32)" 94 KiB
+[ebuild   R    ] x11-libs/libXft-2.3.2::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 328 KiB
+[ebuild   R    ] x11-proto/kbproto-1.0.7::gentoo  ABI_X86="32 (64) (-x32)" 245 KiB
+[ebuild   R    ] x11-libs/libXau-1.0.8::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 289 KiB
+[ebuild   R    ] x11-proto/renderproto-0.11.1-r1::gentoo  ABI_X86="32 (64) (-x32)" 104 KiB
+[ebuild   R    ] x11-libs/libXxf86vm-1.1.4::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 289 KiB
+[ebuild   R    ] x11-libs/xcb-util-keysyms-0.4.0::gentoo  USE="-doc -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-libs/xtrans-1.3.5::gentoo  USE="-doc" 183 KiB
+[ebuild   R    ] x11-libs/libXdmcp-1.1.2-r1::gentoo  USE="-doc -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-proto/damageproto-1.2.1-r1::gentoo  ABI_X86="32 (64) (-x32)" 97 KiB
+[ebuild   R    ] x11-libs/libXpm-3.5.12::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/icu-58.1-r1:0/58.1::gentoo  USE="-debug -doc -examples -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-libs/gpm-1.20.7-r2::gentoo  USE="(-selinux) -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-proto/compositeproto-0.4.2-r1::gentoo  ABI_X86="32 (64) (-x32)" 99 KiB
+[ebuild   R    ] x11-proto/randrproto-1.5.0::gentoo  ABI_X86="32 (64) (-x32)" 139 KiB
+[ebuild   R    ] x11-libs/xcb-util-renderutil-0.3.9-r1::gentoo  USE="-doc -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-proto/xcb-proto-1.12-r2::gentoo  ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild   R    ] dev-libs/nspr-4.13.1::gentoo  USE="-debug" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-proto/videoproto-2.3.3::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-apps/xprop-1.2.2::gentoo  143 KiB
+[ebuild   R    ] x11-apps/xset-1.2.3::gentoo  139 KiB
+[ebuild   R    ] dev-libs/libpthread-stubs-0.3-r1::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 199 KiB
+[ebuild   R    ] x11-proto/recordproto-1.14.2-r1::gentoo  USE="-doc" ABI_X86="32 (64) (-x32)" 121 KiB
+[ebuild   R    ] x11-libs/libxshmfence-1.2::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 261 KiB
+[ebuild   R    ] dev-libs/nettle-3.3-r1:0/6.1::gentoo  USE="gmp -doc (-neon) -static-libs {-test}" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="-aes" 0 KiB
+[ebuild   R    ] x11-libs/xcb-util-wm-0.4.1-r1::gentoo  USE="-doc -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-text/libpaper-1.1.24-r2::gentoo  ABI_X86="32 (64) (-x32)" 347 KiB
+[ebuild   R    ] x11-libs/pixman-0.34.0::gentoo  USE="(-altivec) (-iwmmxt) (-loongson2f) (-neon) -static-libs" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="mmxext sse2 -ssse3" 0 KiB
+[ebuild   R    ] x11-proto/fixesproto-5.0-r1::gentoo  ABI_X86="32 (64) (-x32)" 99 KiB
+[ebuild   R    ] dev-libs/iniparser-3.1-r1::gentoo  USE="-doc -examples -static-libs" ABI_X86="32 (64) (-x32)" 39 KiB
+[ebuild   R    ] sys-process/psmisc-22.21-r3::gentoo  USE="X ipv6 nls (-selinux)" 0 KiB
+[ebuild   R    ] dev-scheme/guile-1.8.8-r3:12/8::gentoo  USE="deprecated nls readline regex threads -debug -debug-freelist -debug-malloc -discouraged -emacs -networking" 0 KiB
+[ebuild   R    ] x11-proto/xf86bigfontproto-1.2.0-r1::gentoo  ABI_X86="32 (64) (-x32)" 49 KiB
+[ebuild   R    ] sys-apps/kbd-2.0.3::gentoo  USE="nls pam {-test}" 0 KiB
+[ebuild   R    ] media-fonts/font-util-1.3.1::gentoo  150 KiB
+[ebuild   R    ] dev-libs/libxslt-1.1.29-r1::gentoo  USE="crypt -debug -examples -python -static-libs" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] media-libs/alsa-lib-1.1.2::gentoo  USE="-alisp -debug -doc -python" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] x11-misc/util-macros-1.19.1::gentoo  0 KiB
+[ebuild   R    ] media-libs/libvorbis-1.3.5::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-proto/glproto-1.4.17-r1::gentoo  ABI_X86="32 (64) (-x32)" 124 KiB
+[ebuild   R    ] net-misc/curl-7.53.0::gentoo  USE="ipv6 ldap ssl -adns -http2 -idn -kerberos -metalink -rtmp -samba -ssh -static-libs {-test} -threads" ABI_X86="32 (64) (-x32)" CURL_SSL="openssl -axtls -gnutls (-libressl) -mbedtls -nss -polarssl (-winssl)" 0 KiB
+[ebuild   R    ] x11-libs/libfontenc-1.1.3::gentoo  USE="-static-libs" 295 KiB
+[ebuild   R    ] x11-proto/fontsproto-2.1.3::gentoo  USE="-doc" 151 KiB
+[ebuild   R    ] x11-misc/xbitmaps-1.1.1-r1::gentoo  0 KiB
+[ebuild   R    ] media-libs/flac-1.3.2-r1::gentoo  USE="cxx ogg (-altivec) -debug -static-libs" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="sse" 0 KiB
+[ebuild   R    ] media-libs/libsamplerate-0.1.9::gentoo  USE="-sndfile -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-proto/dri2proto-2.8-r1::gentoo  ABI_X86="32 (64) (-x32)" 107 KiB
+[ebuild   R    ] x11-proto/xf86driproto-2.1.1-r1::gentoo  ABI_X86="32 (64) (-x32)" 95 KiB
+[ebuild   R    ] x11-proto/scrnsaverproto-1.2.2-r1::gentoo  USE="-doc" ABI_X86="32 (64) (-x32)" 117 KiB
+[ebuild   R    ] x11-apps/iceauth-1.0.7::gentoo  133 KiB
+[ebuild   R    ] x11-apps/xrdb-1.1.0::gentoo  135 KiB
+[ebuild   R    ] x11-proto/resourceproto-1.2.0::gentoo  101 KiB
+[ebuild   R    ] x11-proto/xf86dgaproto-2.1-r2::gentoo  ABI_X86="32 (64) (-x32)" 84 KiB
+[ebuild   R    ] dev-libs/libcdio-paranoia-0.93_p1::gentoo  USE="cxx -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/libdvdread-5.0.3::gentoo  USE="css -static-libs" ABI_X86="32 (64) (-x32)" 386 KiB
+[ebuild   R    ] media-libs/libmad-0.15.1b-r8::gentoo  USE="-debug -static-libs" ABI_X86="32 (64) (-x32)" 491 KiB
+[ebuild   R    ] media-libs/speex-1.2_rc1-r2::gentoo  USE="ogg -static-libs" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="sse" 1,037 KiB
+[ebuild   R    ] dev-libs/apr-1.5.2:1::gentoo  USE="urandom -doc -older-kernels-compatibility (-selinux) -static-libs" 808 KiB
+[ebuild   R    ] x11-proto/presentproto-1.1::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-proto/dri3proto-1.0::gentoo  ABI_X86="32 (64) (-x32)" 103 KiB
+[ebuild   R    ] dev-libs/libatomic_ops-7.4.2::gentoo  113 KiB
+[ebuild   R    ] dev-libs/libevdev-1.5.6::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-misc/xkeyboard-config-2.20::gentoo  0 KiB
+[ebuild   R    ] x11-apps/xrandr-1.5.0::gentoo  0 KiB
+[ebuild   R    ] x11-apps/xrefresh-1.0.5::gentoo  118 KiB
+[ebuild   R    ] x11-misc/makedepend-1.0.5::gentoo  141 KiB
+[ebuild   R    ] x11-apps/xcursorgen-1.0.6::gentoo  122 KiB
+[ebuild   R    ] dev-util/kbuild-0.1.9998_pre20131130::gentoo  1,668 KiB
+[ebuild   R    ] dev-python/dbus-python-1.2.0-r1::gentoo  USE="-doc -examples {-test}" PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/pygobject-2.28.6-r55:2::gentoo  USE="-examples -libffi {-test}" PYTHON_TARGETS="python2_7" 730 KiB
+[ebuild   R    ] x11-libs/libfm-extra-1.2.4:0/4.4.0::gentoo  0 KiB
+[ebuild   R    ] app-eselect/eselect-java-0.3.0::gentoo  0 KiB
+[ebuild   R    ] dev-libs/libgamin-0.1.10-r5::gentoo  USE="-debug -python -static-libs" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 463 KiB
+[ebuild   R    ] dev-libs/libevent-2.1.8:0/2.1-6::gentoo  USE="ssl threads -debug (-libressl) -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/libuv-1.10.2:0/1::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-themes/gnome-themes-standard-3.22.3::gentoo  0 KiB
+[ebuild   R    ] media-sound/lame-3.99.5-r1::gentoo  USE="frontend -debug -mp3rtp -sndfile -static-libs" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="(-mmx)" 0 KiB
+[ebuild   R    ] sys-block/parted-3.2::gentoo  USE="debug nls readline -device-mapper (-selinux) -static-libs" 0 KiB
+[ebuild   R    ] net-libs/libpcap-1.8.1::gentoo  USE="dbus usb -bluetooth -netlink -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sci-libs/gsl-1.16::gentoo  USE="-cblas-external -static-libs" 0 KiB
+[ebuild   R    ] sys-libs/libcap-ng-0.7.8::gentoo  USE="-python -static-libs" PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild   R    ] dev-libs/check-0.9.11::gentoo  USE="-static-libs -subunit" ABI_X86="32 (64) (-x32)" 675 KiB
+[ebuild   R    ] app-arch/snappy-1.1.3-r1::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-util/ragel-6.7-r1::gentoo  USE="-vim-syntax" 1,156 KiB
+[ebuild   R    ] net-misc/socat-1.7.3.1::gentoo  USE="ipv6 readline ssl tcpd" 478 KiB
+[ebuild   R    ] dev-libs/libindicator-12.10.1-r301:3::gentoo  USE="{-test}" ABI_X86="32 (64) (-x32)" 418 KiB
+[ebuild   R    ] x11-apps/xcmsdb-1.0.5::gentoo  143 KiB
+[ebuild   R    ] x11-apps/smproxy-1.0.6::gentoo  129 KiB
+[ebuild   R    ] x11-apps/xwud-1.0.4::gentoo  122 KiB
+[ebuild   R    ] x11-apps/xinput-1.6.2::gentoo  155 KiB
+[ebuild   R    ] x11-apps/xwininfo-1.1.3::gentoo  154 KiB
+[ebuild   R    ] x11-apps/xpr-1.0.4::gentoo  140 KiB
+[ebuild   R    ] x11-apps/appres-1.0.4::gentoo  116 KiB
+[ebuild   R    ] x11-apps/xev-1.2.2::gentoo  130 KiB
+[ebuild   R    ] x11-apps/sessreg-1.1.1::gentoo  0 KiB
+[ebuild   R    ] x11-apps/xkill-1.0.4::gentoo  122 KiB
+[ebuild   R    ] x11-apps/xlsatoms-1.1.2::gentoo  121 KiB
+[ebuild   R    ] x11-apps/xmodmap-1.0.9::gentoo  140 KiB
+[ebuild   R    ] dev-libs/cyrus-sasl-2.1.26-r9:2::gentoo  USE="berkdb gdbm pam ssl -authdaemond -java -kerberos -ldapdb -mysql -openldap -postgres -sample (-selinux) -sqlite -srp -static-libs -urandom" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-i18n/enca-1.19-r1::gentoo  USE="iconv -doc -recode -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/fribidi-0.19.6::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 625 KiB
+[ebuild   R    ] app-text/openjade-1.3.2-r6::gentoo  USE="-static-libs" 874 KiB
+[ebuild   R    ] x11-proto/trapproto-3.4.3::gentoo  48 KiB
+[ebuild   R    ] x11-proto/bigreqsproto-1.1.2::gentoo  USE="-doc" 111 KiB
+[ebuild   R    ] x11-proto/xf86rushproto-1.1.2-r1::gentoo  37 KiB
+[ebuild   R    ] x11-libs/libpciaccess-0.13.4::gentoo  USE="zlib -static-libs" ABI_X86="32 (64) (-x32)" 364 KiB
+[ebuild   R    ] x11-proto/xcmiscproto-1.2.2::gentoo  USE="-doc" 110 KiB
+[ebuild   R    ] media-libs/faad2-2.7-r3::gentoo  USE="-digitalradio -static-libs" ABI_X86="32 (64) (-x32)" 1,111 KiB
+[ebuild   R    ] media-sound/wavpack-5.1.0::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-libs/libnatspec-0.2.6-r1::gentoo  USE="-doc -python" PYTHON_TARGETS="python2_7" 489 KiB
+[ebuild   R    ] media-libs/libdca-0.0.5-r3::gentoo  USE="-debug -oss -static-libs" ABI_X86="32 (64) (-x32)" 388 KiB
+[ebuild   R    ] media-libs/a52dec-0.7.4-r7::gentoo  USE="-djbfft -oss -static-libs" ABI_X86="32 (64) (-x32)" 236 KiB
+[ebuild   R    ] net-libs/libssh2-1.7.0::gentoo  USE="zlib -gcrypt (-libressl) -static-libs {-test}" ABI_X86="32 (64) (-x32)" 793 KiB
+[ebuild   R    ] media-libs/libbluray-0.9.3::gentoo  USE="fontconfig truetype xml -aacs -bdplus -java -static-libs -udf -utils" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-lang/lua-5.1.5-r4::gentoo  USE="deprecated readline -emacs -static" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-fs/dosfstools-4.0-r1::gentoo  USE="udev -compat" 0 KiB
+[ebuild   R    ] app-arch/arj-3.10.22-r5::gentoo  437 KiB
+[ebuild   R    ] app-arch/lha-114i-r7::gentoo  279 KiB
+[ebuild   R    ] dev-util/valgrind-3.12.0::gentoo  USE="-mpi" 0 KiB
+[ebuild   R    ] sys-process/htop-2.0.2::gentoo  USE="unicode -openvz -vserver" 0 KiB
+[ebuild   R    ] x11-wm/twm-1.0.9::gentoo  278 KiB
+[ebuild   R    ] dev-libs/libzip-1.0.1::gentoo  USE="-static-libs" 440 KiB
+[ebuild   R    ] dev-libs/libtar-1.2.20-r3::gentoo  USE="zlib -static-libs" 63 KiB
+[ebuild   R   ~] dev-qt/qtcore-5.7.1-r2:5/5.7::gentoo  USE="icu systemd -debug {-test}" 0 KiB
+[ebuild   R    ] x11-libs/libXcomposite-0.4.4-r1::gentoo  USE="-doc -static-libs" ABI_X86="32 (64) (-x32)" 278 KiB
+[ebuild   R    ] x11-libs/libXdamage-1.1.4-r1::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 273 KiB
+[ebuild   R   ~] x11-libs/libxkbcommon-0.7.1::gentoo  USE="X -doc -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-libs/libXaw-1.0.13::gentoo  USE="-deprecated -doc -static-libs" ABI_X86="32 (64) (-x32)" 659 KiB
+[ebuild   R    ] x11-libs/libXv-1.0.11::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-libs/libdrm-2.4.75::gentoo  USE="libkms -static-libs -valgrind" ABI_X86="32 (64) (-x32)" VIDEO_CARDS="-amdgpu (-exynos) (-freedreno) -intel -nouveau (-omap) -radeon (-tegra) (-vc4) (-vivante) -vmware" 0 KiB
+[ebuild   R    ] x11-apps/xauth-1.0.10::gentoo  USE="ipv6 {-test}" 0 KiB
+[ebuild   R    ] x11-libs/libvdpau-1.1.1::gentoo  USE="dri -doc {-test}" ABI_X86="32 (64) (-x32)" 530 KiB
+[ebuild   R    ] app-portage/portage-utils-0.62::gentoo  USE="nls -static" 515 KiB
+[ebuild   R    ] sys-devel/autogen-5.18.4::gentoo  USE="-libopts -static-libs" 995 KiB
+[ebuild   R    ] x11-apps/mkfontscale-1.1.2::gentoo  139 KiB
+[ebuild   R    ] app-arch/unzip-6.0_p20::gentoo  USE="bzip2 natspec unicode" 1,361 KiB
+[ebuild   R    ] x11-libs/libxkbfile-1.0.9::gentoo  USE="-static-libs" 340 KiB
+[ebuild   R    ] x11-libs/libXScrnSaver-1.2.2-r1::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 284 KiB
+[ebuild   R    ] sys-libs/talloc-2.1.5::gentoo  USE="python -compat" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 426 KiB
+[ebuild   R    ] lxde-base/menu-cache-1.0.2:0/2::gentoo  0 KiB
+[ebuild   R    ] x11-apps/rgb-1.0.6::gentoo  136 KiB
+[ebuild   R    ] x11-libs/libXres-1.0.7::gentoo  USE="-static-libs" 277 KiB
+[ebuild   R    ] sys-power/upower-0.99.4:0/3::gentoo  USE="introspection -doc -ios (-selinux)" 417 KiB
+[ebuild   R    ] dev-libs/nss-3.28.1::gentoo  USE="nss-pem -cacert -utils" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-lang/vala-0.34.7:0.34::gentoo  USE="{-test}" 0 KiB
+[ebuild   R    ] x11-apps/luit-1.1.1::gentoo  137 KiB
+[ebuild   R    ] dev-python/lxml-3.7.3::gentoo  USE="threads -doc -examples {-test}" PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] x11-apps/xsetroot-1.1.1::gentoo  118 KiB
+[ebuild   R    ] media-libs/libsndfile-1.0.26::gentoo  USE="alsa -minimal -sqlite -static-libs {-test}" ABI_X86="32 (64) (-x32)" 1,056 KiB
+[ebuild   R    ] media-libs/libdvdnav-5.0.3::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 364 KiB
+[ebuild   R    ] media-libs/libtheora-1.1.1-r1::gentoo  USE="encode -doc -examples -static-libs" ABI_X86="32 (64) (-x32)" 1,859 KiB
+[ebuild   R    ] dev-libs/apr-util-1.5.4:1::gentoo  USE="berkdb gdbm ldap -doc -freetds -mysql -nss -odbc -openssl -postgres -sqlite -static-libs" 679 KiB
+[ebuild   R    ] x11-libs/libXfont-1.5.2::gentoo  USE="bzip2 ipv6 truetype -doc -static-libs" 0 KiB
+[ebuild   R    ] media-libs/libcdr-0.1.1::gentoo  USE="-doc -static-libs" 0 KiB
+[ebuild   R    ] dev-libs/boehm-gc-7.4.2::gentoo  USE="cxx -static-libs -threads" 1,058 KiB
+[ebuild   R    ] x11-libs/xpyb-1.3.1-r3::gentoo  USE="(-selinux) -static-libs" PYTHON_TARGETS="python2_7" 268 KiB
+[ebuild   R    ] dev-python/subunit-1.2.0-r1::gentoo  USE="-static-libs {-test}" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-libs/leveldb-1.18-r1::gentoo  USE="snappy tcmalloc -static-libs" 205 KiB
+[ebuild   R    ] dev-libs/libinput-1.6.2:0/10::gentoo  USE="{-test}" INPUT_DEVICES="-wacom" 0 KiB
+[ebuild   R    ] x11-apps/x11perf-1.6.0::gentoo  187 KiB
+[ebuild   R    ] x11-apps/xgamma-1.0.6::gentoo  121 KiB
+[ebuild   R    ] x11-themes/xcursor-themes-1.0.4::gentoo  2,298 KiB
+[ebuild   R    ] x11-apps/xdriinfo-1.0.5::gentoo  119 KiB
+[ebuild   R    ] x11-apps/xhost-1.0.7::gentoo  USE="ipv6" 133 KiB
+[ebuild   R    ] x11-libs/libXxf86dga-1.1.4::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 274 KiB
+[ebuild   R    ] dev-libs/newt-0.52.15::gentoo  USE="gpm nls -tcl" PYTHON_TARGETS="python2_7" 179 KiB
+[ebuild   R    ] media-libs/audiofile-0.3.6-r3:0/1::gentoo  USE="flac -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-python/pyalsa-1.0.29::gentoo  PYTHON_TARGETS="python2_7 (-pypy)" 0 KiB
+[ebuild   R    ] app-crypt/gcr-3.20.0:0/1::gentoo  USE="gtk introspection -debug {-test} -vala" 0 KiB
+[ebuild   R    ] x11-libs/libXfont2-2.0.1::gentoo  USE="bzip2 ipv6 truetype -doc -static-libs" 0 KiB
+[ebuild   R    ] gnome-extra/yelp-xsl-3.20.1::gentoo  0 KiB
+[ebuild   R    ] app-admin/gam-server-0.1.10-r2::gentoo  USE="-debug" 388 KiB
+[ebuild   R    ] www-client/links-2.14:2::gentoo  USE="X bzip2 gpm ipv6 jpeg ssl tiff unicode zlib -directfb -fbcon -libevent (-libressl) -livecd -lzma (-suid) (-svga)" 0 KiB
+[ebuild   R    ] media-sound/alsa-utils-1.1.2:0.9::gentoo  USE="libsamplerate ncurses nls -bat -doc (-selinux)" 0 KiB
+[ebuild   R    ] app-cdr/cdrtools-3.02_alpha06::gentoo  USE="acl filecaps nls unicode -caps" 0 KiB
+[ebuild   R    ] net-analyzer/nmap-7.40::gentoo  USE="ipv6 nls nse ssl (-libressl) -ncat -ndiff -nmap-update -nping (-system-lua) -zenmap" LINGUAS="-de -fr -hi -hr -it -ja -pl -pt_BR -ru -zh" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] net-misc/ntp-4.2.8_p9::gentoo  USE="ipv6 readline ssl threads -caps -debug (-libressl) -openntpd -parse-clocks -samba (-selinux) -snmp -vim-syntax -zeroconf" 0 KiB
+[ebuild   R    ] net-libs/gnutls-3.3.26::gentoo  USE="crywrap cxx nls openssl zlib -dane -doc -examples -guile -pkcs11 -static-libs {-test}" ABI_X86="32 (64) (-x32)" LINGUAS="-cs -de -en -fi -fr -it -ms -nl -pl -sv -uk -vi -zh_CN" 0 KiB
+[ebuild   R    ] sys-apps/groff-1.22.2::gentoo  USE="X -examples" L10N="-ja" 0 KiB
+[ebuild   R    ] x11-apps/mkfontdir-1.0.7::gentoo  106 KiB
+[ebuild   R    ] media-fonts/encodings-1.0.4::gentoo  650 KiB
+[ebuild   R    ] media-fonts/font-alias-1.0.3-r1::gentoo  101 KiB
+[ebuild   R   ~] dev-qt/qtnetwork-5.7.1:5/5.7::gentoo  USE="bindist ssl -connman -debug -libproxy -networkmanager {-test}" 0 KiB
+[ebuild   R    ] x11-apps/bdftopcf-1.0.5::gentoo  121 KiB
+[ebuild   R   ~] dev-qt/qtconcurrent-5.7.1:5/5.7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] dev-qt/qtsql-5.7.1:5/5.7::gentoo  USE="mysql sqlite -debug -freetds -oci8 -odbc -postgres {-test}" 0 KiB
+[ebuild   R    ] app-text/docbook-xml-dtd-4.2-r2:4.2::gentoo  77 KiB
+[ebuild   R    ] app-text/docbook-xml-dtd-4.1.2-r6:4.1.2::gentoo  74 KiB
+[ebuild   R    ] app-text/docbook-xml-dtd-4.3-r1:4.3::gentoo  82 KiB
+[ebuild   R   ~] dev-qt/qttest-5.7.1:5/5.7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R    ] x11-apps/setxkbmap-1.3.1::gentoo  131 KiB
+[ebuild   R    ] app-arch/zip-3.0-r3::gentoo  USE="bzip2 crypt unicode -natspec" 1,258 KiB
+[ebuild   R    ] app-text/docbook-xml-dtd-4.5-r1:4.5::gentoo  97 KiB
+[ebuild   R    ] app-text/docbook-xml-dtd-4.4-r2:4.4::gentoo  94 KiB
+[ebuild   R    ] x11-apps/xmessage-1.0.4::gentoo  123 KiB
+[ebuild   R    ] dev-python/pycairo-1.10.0-r5::gentoo  USE="svg xcb -doc -examples {-test}" PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] sys-libs/tevent-0.9.28::gentoo  USE="python" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 568 KiB
+[ebuild   R    ] x11-apps/xkbcomp-1.3.1::gentoo  0 KiB
+[ebuild   R    ] app-text/yelp-tools-3.18.0::gentoo  0 KiB
+[ebuild   R    ] app-dicts/myspell-en-20170101::gentoo  0 KiB
+[ebuild   R    ] dev-python/distlib-0.2.1::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] dev-python/pillow-3.4.2-r1::gentoo  USE="jpeg lcms tiff truetype zlib -doc -examples -jpeg2k {-test} -tk -webp" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R   ~] dev-qt/qdbus-5.7.1:5/5.7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] dev-qt/qtpaths-5.7.1:5/5.7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R    ] x11-apps/xvinfo-1.1.3::gentoo  121 KiB
+[ebuild   R    ] x11-apps/xkbutils-1.0.4::gentoo  129 KiB
+[ebuild   R    ] x11-apps/xkbevd-1.1.4::gentoo  149 KiB
+[ebuild   R    ] x11-apps/bitmap-1.0.8::gentoo  174 KiB
+[ebuild   R    ] x11-apps/xdpyinfo-1.3.2::gentoo  USE="xinerama -dga -dmx" 139 KiB
+[ebuild   R    ] x11-apps/xwd-1.0.6::gentoo  142 KiB
+[ebuild   R    ] x11-apps/xf86dga-1.0.3::gentoo  103 KiB
+[ebuild   R    ] dev-cpp/muParser-2.2.3::gentoo  USE="-doc {-test}" 0 KiB
+[ebuild   R    ] x11-apps/xinit-1.3.4-r1::gentoo  USE="minimal systemd" 162 KiB
+[ebuild   R    ] app-text/docbook-sgml-dtd-3.0-r3:3.0::gentoo  43 KiB
+[ebuild   R    ] net-libs/serf-1.3.8:1::gentoo  USE="-kerberos" 140 KiB
+[ebuild   R    ] app-admin/gamin-0.1.10-r1::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-video/recordmydesktop-0.3.8.1-r4::gentoo  USE="alsa -jack" 195 KiB
+[ebuild   R    ] sys-boot/grub-2.02_beta3-r1:2/2.02_beta3-r1::gentoo  USE="fonts nls sdl themes truetype -debug -device-mapper -doc -efiemu (-libzfs) -mount -multislot -static {-test}" GRUB_PLATFORMS="efi-32 efi-64 emu pc -coreboot -ieee1275 -loongson -multiboot -qemu -qemu-mips -uboot -xen -xen-32" 0 KiB
+[ebuild   R    ] x11-apps/xclock-1.0.7::gentoo  161 KiB
+[ebuild   R    ] app-portage/repoman-2.3.1::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] x11-misc/vdpauinfo-1.0::gentoo  87 KiB
+[ebuild   R    ] media-fonts/urw-fonts-2.4.9::gentoo  USE="X" 3,124 KiB
+[ebuild   R    ] media-fonts/dejavu-2.35::gentoo  USE="X -fontforge" 0 KiB
+[ebuild   R    ] dev-lang/spidermonkey-1.8.5-r4:0/mozjs185::gentoo  USE="-debug -minimal -static-libs {-test}" 6,021 KiB
+[ebuild   R    ] gnome-base/dconf-0.26.0-r1::gentoo  USE="{-test}" 0 KiB
+[ebuild   R   ~] dev-qt/qtxmlpatterns-5.7.1:5/5.7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R    ] media-fonts/font-misc-misc-1.1.2::gentoo  USE="X nls" 1,889 KiB
+[ebuild   R    ] app-text/xmlto-0.0.26-r1::gentoo  USE="text -latex" 118 KiB
+[ebuild   R    ] app-text/hunspell-1.3.3::gentoo  USE="ncurses nls readline -static-libs" L10N="-af -bg -ca -cs -cy -da -de -de-1901 -el -en -eo -es -et -fo -fr -ga -gl -he -hr -hu -ia -id -is -it -km -ku -lt -lv -mk -ms -nb -nl -nn -pl -pt -pt-BR -ro -ru -sk -sl -sq -sv -sw -tn -uk -zu" 0 KiB
+[ebuild   R    ] sys-libs/tdb-1.3.8::gentoo  USE="python" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 483 KiB
+[ebuild   R    ] app-text/po4a-0.47::gentoo  USE="{-test}" LINGUAS="-af -ca -cs -da -de -eo -es -et -eu -fr -hr -id -it -ja -kn -ko -nb -nl -pl -pt -pt_BR -ru -sl -sv -uk -vi -zh_CN -zh_HK" 0 KiB
+[ebuild   R    ] sys-libs/ntdb-1.0-r1::gentoo  USE="python" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 776 KiB
+[ebuild   R    ] media-fonts/noto-20160305-r1::gentoo  USE="X -cjk" 0 KiB
+[ebuild   R   ~] media-fonts/hack-2.020-r1::gentoo  USE="X" 0 KiB
+[ebuild   R    ] dev-libs/json-glib-1.2.8::gentoo  USE="introspection -debug" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-text/gnome-doc-utils-0.20.10-r1::gentoo  PYTHON_TARGETS="python2_7" 515 KiB
+[ebuild   R    ] media-fonts/font-xfree86-type1-1.0.4::gentoo  USE="X" 124 KiB
+[ebuild   R    ] media-fonts/font-adobe-utopia-100dpi-1.0.4::gentoo  USE="X nls" 346 KiB
+[ebuild   R    ] media-fonts/font-ibm-type1-1.0.3::gentoo  USE="X" 369 KiB
+[ebuild   R    ] media-fonts/font-bh-type1-1.0.3::gentoo  USE="X" 623 KiB
+[ebuild   R    ] media-fonts/font-micro-misc-1.0.3::gentoo  USE="X nls" 97 KiB
+[ebuild   R    ] media-fonts/font-bh-ttf-1.0.3::gentoo  USE="X" 455 KiB
+[ebuild   R    ] media-fonts/font-adobe-utopia-75dpi-1.0.4::gentoo  USE="X nls" 268 KiB
+[ebuild   R    ] media-fonts/font-misc-ethiopic-1.0.3::gentoo  USE="X" 240 KiB
+[ebuild   R    ] media-fonts/font-screen-cyrillic-1.0.4::gentoo  USE="X nls" 101 KiB
+[ebuild   R    ] media-fonts/font-adobe-75dpi-1.0.3::gentoo  USE="X nls" 869 KiB
+[ebuild   R    ] media-fonts/font-jis-misc-1.0.3::gentoo  USE="X nls" 608 KiB
+[ebuild   R    ] media-fonts/font-bh-100dpi-1.0.3::gentoo  USE="X nls" 697 KiB
+[ebuild   R    ] media-fonts/font-cursor-misc-1.0.3::gentoo  USE="X nls" 100 KiB
+[ebuild   R    ] media-fonts/font-misc-cyrillic-1.0.3::gentoo  USE="X nls" 124 KiB
+[ebuild   R    ] media-fonts/font-arabic-misc-1.0.3::gentoo  USE="X nls" 110 KiB
+[ebuild   R    ] media-fonts/font-bitstream-100dpi-1.0.3::gentoo  USE="X nls" 196 KiB
+[ebuild   R    ] media-fonts/font-misc-meltho-1.0.3::gentoo  USE="X" 1,542 KiB
+[ebuild   R    ] media-fonts/font-adobe-100dpi-1.0.3::gentoo  USE="X nls" 1,088 KiB
+[ebuild   R    ] media-fonts/font-bh-75dpi-1.0.3::gentoo  USE="X nls" 541 KiB
+[ebuild   R    ] media-fonts/font-cronyx-cyrillic-1.0.3::gentoo  USE="X nls" 257 KiB
+[ebuild   R    ] media-fonts/font-sony-misc-1.0.3::gentoo  USE="X nls" 106 KiB
+[ebuild   R    ] media-fonts/font-sun-misc-1.0.3::gentoo  USE="X nls" 114 KiB
+[ebuild   R    ] media-fonts/font-bitstream-75dpi-1.0.3::gentoo  USE="X nls" 171 KiB
+[ebuild   R    ] media-fonts/font-schumacher-misc-1.1.2::gentoo  USE="X nls" 138 KiB
+[ebuild   R    ] media-fonts/font-isas-misc-1.0.3::gentoo  USE="X nls" 826 KiB
+[ebuild   R    ] media-fonts/font-bitstream-type1-1.0.3::gentoo  USE="X" 407 KiB
+[ebuild   R    ] media-fonts/font-adobe-utopia-type1-1.0.4::gentoo  USE="X" 263 KiB
+[ebuild   R    ] media-fonts/font-bitstream-speedo-1.0.2::gentoo  USE="X" 407 KiB
+[ebuild   R    ] media-fonts/font-winitzki-cyrillic-1.0.3::gentoo  USE="X nls" 99 KiB
+[ebuild   R    ] media-fonts/font-dec-misc-1.0.3::gentoo  USE="X nls" 98 KiB
+[ebuild   R    ] media-fonts/font-bh-lucidatypewriter-100dpi-1.0.3::gentoo  USE="X nls" 241 KiB
+[ebuild   R    ] media-fonts/font-mutt-misc-1.0.3::gentoo  USE="X nls" 261 KiB
+[ebuild   R    ] media-fonts/font-daewoo-misc-1.0.3::gentoo  USE="X nls" 707 KiB
+[ebuild   R    ] media-fonts/font-bh-lucidatypewriter-75dpi-1.0.3::gentoo  USE="X nls" 215 KiB
+[ebuild   R    ] dev-util/gtk-doc-1.25-r1::gentoo  USE="-debug -doc -emacs -highlight -vim" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] dev-java/icedtea-web-1.6.1-r1::gentoo  USE="-doc -javascript -nsplugin -tagsoup {-test}" 0 KiB
+[ebuild   R    ] mail-mta/nullmailer-1.13-r5::gentoo  USE="ssl" 209 KiB
+[ebuild   R    ] dev-python/pip-7.1.2::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] x11-misc/xdg-utils-1.1.1-r1::gentoo  USE="perl -doc" 289 KiB
+[ebuild   R    ] sys-apps/man-db-2.7.6.1-r2::gentoo  USE="berkdb gdbm manpager nls zlib (-selinux) -static-libs" 0 KiB
+[ebuild   R    ] app-text/enchant-1.6.0::gentoo  USE="hunspell -aspell -static-libs -zemberek" 593 KiB
+[ebuild   R    ] net-libs/libaccounts-glib-1.21-r2::gentoo  USE="-debug" 0 KiB
+[ebuild   R    ] sys-libs/ldb-1.1.26:0/1.1.26::gentoo  USE="-doc" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 1,234 KiB
+[ebuild   R    ] app-arch/dpkg-1.17.26::gentoo  USE="bzip2 lzma nls unicode update-alternatives zlib (-selinux) {-test}" 0 KiB
+[ebuild   R    ] x11-terms/xterm-327::gentoo  USE="openpty truetype unicode xinerama -Xaw3d -toolbar" 0 KiB
+[ebuild   R    ] net-libs/accounts-qt-1.13::gentoo  USE="-doc {-test}" 0 KiB
+[ebuild   R    ] dev-qt/qtcore-4.8.6-r2:4::gentoo  USE="exceptions glib iconv icu qt3support ssl (-aqua) -debug -pch" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-qt/qtscript-4.8.6-r2:4::gentoo  USE="exceptions jit (-aqua) -debug -pch" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-qt/qtsql-4.8.6-r1:4::gentoo  USE="exceptions mysql qt3support sqlite (-aqua) -debug -freetds -oci8 -odbc -pch -postgres" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-qt/qttranslations-4.8.6-r1:4::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-qt/qtsvg-4.8.6-r1:4::gentoo  USE="accessibility exceptions (-aqua) -debug -pch" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-qt/qttest-4.8.6-r1:4::gentoo  USE="exceptions (-aqua) -debug -pch" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-qt/qtopengl-4.8.6-r1:4::gentoo  USE="exceptions qt3support (-aqua) -debug -egl -pch" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-qt/qtxmlpatterns-4.8.6-r1:4::gentoo  USE="(-aqua) -debug -pch" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-qt/qt3support-4.8.6-r1:4::gentoo  USE="accessibility exceptions (-aqua) -debug -pch" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-qt/qtwebkit-4.8.6-r1:4::gentoo  USE="exceptions gstreamer jit (-aqua) -debug -icu -pch" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] dev-qt/qtdeclarative-4.8.6-r1:4::gentoo  USE="accessibility exceptions qt3support (-aqua) -debug -pch -webkit" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] net-print/cups-2.1.4::gentoo  USE="X acl dbus pam ssl systemd threads usb -debug -java -kerberos -lprng-compat -python (-selinux) -static-libs -xinetd -zeroconf" ABI_X86="32 (64) (-x32)" LINGUAS="ca cs de es fr it ja ru" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] x11-libs/xcb-util-0.4.0::gentoo  USE="-doc -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-libs/xcb-util-image-0.4.0::gentoo  USE="-doc -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-libs/startup-notification-0.12-r1::gentoo  USE="-static-libs" 347 KiB
+[ebuild   R    ] x11-apps/xbacklight-1.2.1-r1::gentoo  115 KiB
+[ebuild   R    ] x11-apps/xlsclients-1.1.3::gentoo  125 KiB
+[ebuild   R    ] x11-libs/xcb-util-cursor-0.1.3-r1::gentoo  USE="-doc -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-libs/libwnck-3.20.1:3::gentoo  USE="introspection startup-notification -tools" 0 KiB
+[ebuild   R    ] sys-libs/pam-1.2.1::gentoo  USE="berkdb cracklib nls pie -audit -debug -nis (-selinux) {-test} -vim-syntax" ABI_X86="32 (64) (-x32)" 1,729 KiB
+[ebuild   R    ] sys-auth/pambase-20150213::gentoo  USE="cracklib nullok sha512 systemd (-consolekit) -debug -gnome-keyring -minimal -mktemp -pam_krb5 -pam_ssh -passwdqc -securetty (-selinux)" 4 KiB
+[ebuild   R    ] net-misc/openssh-7.3_p1-r7::gentoo  USE="X bindist hpn ldap pam pie ssl -X509 -debug -kerberos -ldns -libedit (-libressl) -livecd -sctp (-selinux) -skey -ssh1 -static {-test}" 0 KiB
+[ebuild   R    ] sys-apps/openrc-0.24.2::gentoo  USE="ncurses netifrc pam unicode -audit -debug -newnet (-prefix) (-selinux) -static-libs" 0 KiB
+[ebuild   R    ] sys-apps/shadow-4.4-r2::gentoo  USE="acl cracklib nls pam xattr -audit (-selinux) -skey" LINGUAS="-cs -da -de -es -fi -fr -hu -id -it -ja -ko -pl -pt_BR -ru -sv -tr -zh_CN -zh_TW" 0 KiB
+[ebuild   R    ] app-admin/sudo-1.8.18_p1::gentoo  USE="ldap nls pam sendmail -offensive (-selinux) -skey" 0 KiB
+[ebuild   R    ] virtual/service-manager-0::gentoo  USE="(-prefix)" 0 KiB
+[ebuild   R    ] virtual/ssh-0::gentoo  USE="-minimal" 0 KiB
+[ebuild   R    ] net-fs/sshfs-2.8::gentoo  0 KiB
+[ebuild   R    ] sys-auth/polkit-0.113::gentoo  USE="gtk introspection kde nls pam systemd -examples -jit (-selinux) {-test}" 1,415 KiB
+[ebuild   R    ] gnome-extra/polkit-gnome-0.105-r1::gentoo  304 KiB
+[ebuild   R    ] sys-fs/udisks-2.1.8:2::gentoo  USE="acl gptfdisk introspection systemd -cryptsetup -debug (-selinux)" 0 KiB
+[ebuild   R    ] gnome-base/gconf-3.2.6-r4:2::gentoo  USE="introspection ldap (policykit) -debug" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] sys-apps/accountsservice-0.6.43::gentoo  USE="introspection systemd -doc (-selinux)" 0 KiB
+[ebuild   R    ] net-misc/modemmanager-1.6.4:0/1::gentoo  USE="introspection (policykit) qmi systemd -mbim -vala" 0 KiB
+[ebuild   R    ] dev-lang/ruby-2.1.9:2.1::gentoo  USE="berkdb gdbm ipv6 ncurses rdoc readline ssl -debug -doc -examples -rubytests -socks5 -xemacs" 0 KiB
+[ebuild   R    ] dev-ruby/rubygems-2.5.2::gentoo  USE="-server {-test}" RUBY_TARGETS="ruby21 (-ruby20*) (-ruby22) (-ruby23)" 0 KiB
+[ebuild   R    ] virtual/rubygems-10::gentoo  RUBY_TARGETS="ruby21 (-ruby20*) (-ruby19%)" 0 KiB
+[ebuild   R    ] dev-ruby/rake-10.5.0::gentoo  USE="-doc {-test}" RUBY_TARGETS="ruby21 (-ruby20*) (-ruby22) (-ruby23)" 0 KiB
+[ebuild   R    ] dev-ruby/json-1.8.2-r1::gentoo  USE="-doc {-test}" RUBY_TARGETS="ruby21 (-ruby20*) (-ruby19%)" 149 KiB
+[ebuild   R    ] dev-ruby/racc-1.4.11::gentoo  USE="-doc {-test}" RUBY_TARGETS="ruby21 (-ruby20*) (-ruby22) (-ruby19%)" 111 KiB
+[ebuild   R    ] dev-ruby/rdoc-4.2.0::gentoo  USE="-doc {-test}" RUBY_TARGETS="ruby21 (-ruby20*) (-ruby22)" 0 KiB
+[ebuild   R    ] dev-qt/designer-4.8.6-r1:4::gentoo  USE="declarative exceptions kde phonon qt3support (-aqua) -debug -pch -webkit" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-text/aspell-0.60.6.1-r3::gentoo  USE="nls" L10N="-af -be -bg -br -ca -cs -cy -da -de -de-1901 -el -en -eo -es -et -fi -fo -fr -ga -gl -he -hr -hu -hy -is -it -la -lt -nl -no -pl -pt -pt-BR -ro -ru -sk -sl -sr -sv -uk -vi" LINGUAS="-af -be -bg -br -ca -cs -cy -da -de -de@1901 -el -en -eo -es -et -fi -fo -fr -ga -gl -he -hr -hu -hy -is -it -la -lt -nl -no -pl -pt -pt_BR -ro -ru -sk -sl -sr -sv -uk -vi" 0 KiB
+[ebuild   R    ] app-dicts/aspell-en-2016.11.20.0::gentoo  0 KiB
+[ebuild   R    ] x11-misc/xdg-user-dirs-0.15::gentoo  USE="gtk" 239 KiB
+[ebuild   R    ] x11-misc/xdg-user-dirs-gtk-0.10::gentoo  114 KiB
+[ebuild   R   ~] app-emulation/virtualbox-guest-additions-5.1.20::gentoo  USE="X" 0 KiB
+[ebuild   R    ] net-fs/cifs-utils-6.4::gentoo  USE="acl ads caps caps-ng -creds" 384 KiB
+[ebuild   R    ] dev-vcs/git-2.10.2::gentoo  USE="blksha1 curl gpg gtk iconv nls pcre perl python threads webdav -cgi -cvs -doc -emacs -gnome-keyring -highlight (-libressl) -mediawiki -mediawiki-experimental (-ppcsha1) -subversion {-test} -tk -xinetd" LINGUAS="-bg -ca -de -fr -is -it -ko -pt_PT -ru -sv -vi -zh_CN" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R   ~] dev-qt/qtscript-5.7.1:5/5.7::gentoo  USE="jit scripttools* -debug {-test}" 0 KiB
+[ebuild   R    ] sys-libs/glibc-2.23-r3:2.2::gentoo  USE="(multilib) rpc -audit -caps -debug -gd (-hardened) -nscd -profile (-selinux) -suid -systemtap -vanilla" 0 KiB
+[ebuild   R    ] sys-devel/gcc-5.4.0-r3:5.4.0::gentoo  USE="cxx fortran (multilib) nls nptl objc openmp sanitize vtv (-altivec) (-awt) -cilk -debug -doc (-fixed-point) -gcj -go -graphite (-hardened) (-jit) (-libssp) -mpx -nopie -nossp -objc++ -objc-gc -regression-test -vanilla" 0 KiB
+[ebuild   R    ] sys-apps/iproute2-4.4.0::gentoo  USE="berkdb iptables ipv6 -atm -minimal (-selinux)" 0 KiB
+[ebuild   R    ] dev-libs/libev-4.23::gentoo  USE="-static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-arch/rar-5.4.0::gentoo  USE="-all_sfx -static" 0 KiB
+[ebuild   R    ] sys-devel/prelink-20130503::gentoo  USE="(-selinux)" 907 KiB
+[ebuild   R    ] net-misc/dhcp-4.3.4::gentoo  USE="client ipv6 ldap server ssl (-libressl) (-selinux) -vim-syntax" 0 KiB
+[ebuild   R    ] dev-libs/libverto-0.2.5-r1::gentoo  USE="libev threads -glib -libevent -static-libs -tevent" ABI_X86="32 (64) (-x32)" 342 KiB
+[ebuild   R    ] app-crypt/mit-krb5-1.14.2::gentoo  USE="keyutils pkinit threads -doc (-libressl) -openldap (-selinux) {-test} -xinetd" ABI_X86="32 (64) (-x32)" 11,978 KiB
+[ebuild   R    ] gnome-base/librsvg-2.40.16:2::gentoo  USE="introspection -tools -vala" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/libepoxy-1.4.1::gentoo  USE="X {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-auth/polkit-qt-0.112.0-r1::gentoo  USE="qt4 qt5 -debug -examples" 67 KiB
+[ebuild   R   ~] kde-plasma/polkit-kde-agent-5.9.4:5::gentoo  USE="-debug" 0 KiB
+[ebuild   R    ] media-libs/openjpeg-2.1.1_p20160922:2/7::gentoo  USE="-doc -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-text/ghostscript-gpl-9.20-r1::gentoo  USE="X cups dbus gtk tiff -idn -static-libs" L10N="-de -ja -ko -zh-CN -zh-TW" 0 KiB
+[ebuild   R    ] media-libs/libwmf-0.2.8.4-r6::gentoo  USE="X xml -debug -doc -expat" 2,119 KiB
+[ebuild   R    ] app-text/poppler-0.45.0:0/62::gentoo  USE="cairo cxx introspection jpeg jpeg2k lcms png qt4 qt5 tiff utils (-cairo-qt) -cjk -curl -debug -doc -nss" 0 KiB
+[ebuild   R    ] net-print/cups-filters-1.5.0::gentoo  USE="dbus foomatic jpeg ldap png tiff -perl -static-libs -zeroconf" 0 KiB
+[ebuild   R    ] sys-devel/llvm-3.9.1-r1:0/3.9.1::gentoo  USE="clang libffi ncurses sanitize static-analyzer xml -debug -default-compiler-rt -default-libcxx -doc -gold -libedit (-lldb) -multitarget -ocaml -python {-test}" ABI_X86="32 (64) (-x32)" LLVM_TARGETS="AMDGPU* BPF* NVPTX* (X86) -AArch64 -ARM -Hexagon -MSP430 -Mips -PowerPC -Sparc -SystemZ -XCore" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] media-libs/mesa-13.0.5::gentoo  USE="bindist classic dri3 egl gallium gbm gles2 llvm nettle nptl osmesa vdpau wayland xa -d3d9 -debug -gcrypt -gles1 (-libressl) -opencl -openmax -openssl -pax_kernel -pic (-selinux) -vaapi -valgrind -vulkan -xvmc" ABI_X86="32 (64) (-x32)" VIDEO_CARDS="(-freedreno) -i915 -i965 -intel -nouveau -r100 -r200 -r300 -r600 -radeon -radeonsi (-vc4) -vmware" 0 KiB
+[ebuild   R    ] sys-devel/clang-3.9.1-r100:0/3.9.1::gentoo  USE="static-analyzer -debug -multitarget -python" ABI_X86="32 (64) (-x32)" LLVM_TARGETS="AMDGPU* BPF* NVPTX* (X86) -AArch64 -ARM -Hexagon -MSP430 -Mips -PowerPC -Sparc -SystemZ -XCore" 0 KiB
+[ebuild   R    ] x11-base/xorg-server-1.19.2:0/1.19.2::gentoo  USE="glamor ipv6 suid systemd udev wayland xorg -debug -dmx -doc -kdrive (-libressl) -minimal (-selinux) -static-libs -tslib -unwind -xephyr -xnest -xvfb" 0 KiB
+[ebuild   R    ] x11-apps/mesa-progs-8.3.0::gentoo  USE="-egl -gles2" 0 KiB
+[ebuild   R   ~] x11-drivers/xf86-video-virtualbox-5.1.20::gentoo  USE="dri" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] x11-drivers/xf86-input-evdev-2.10.5::gentoo  0 KiB
+[ebuild   R    ] x11-base/xorg-x11-7.4-r2::gentoo  0 KiB
+[ebuild   R    ] media-gfx/graphite2-1.3.8::gentoo  USE="-perl {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/harfbuzz-1.4.5:0/0.9.18::gentoo  USE="cairo glib graphite introspection truetype -fontconfig -icu -static-libs {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-libs/pango-1.40.4::gentoo  USE="X introspection {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/libass-0.13.6:0/9::gentoo  USE="fontconfig harfbuzz -static-libs" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] dev-qt/qtgui-5.7.1:5/5.7::gentoo  USE="dbus egl gif gtk jpeg png udev xcb -accessibility -debug -eglfs -evdev -gles2 -ibus -libinput {-test} -tslib -tuio" 0 KiB
+[ebuild   R    ] dev-cpp/pangomm-2.40.1:1.4::gentoo  USE="-doc" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] x11-wm/openbox-3.6.1:3::gentoo  USE="branding nls session startup-notification svg xdg -debug -imlib -static-libs" PYTHON_TARGETS="python2_7" 954 KiB
+[ebuild   R    ] dev-util/cmake-3.7.2::gentoo  USE="ncurses qt5 -doc -emacs -system-jsoncpp {-test}" 0 KiB
+[ebuild   R   ~] dev-qt/qtdeclarative-5.7.1:5/5.7::gentoo  USE="jit widgets xml -debug -gles2 -localstorage {-test}" 0 KiB
+[ebuild   R   ~] dev-qt/qtprintsupport-5.7.1:5/5.7::gentoo  USE="cups -debug -gles2 {-test}" 0 KiB
+[ebuild   R   ~] dev-qt/qtopengl-5.7.1:5/5.7::gentoo  USE="-debug -gles2 {-test}" 0 KiB
+[ebuild   R    ] dev-cpp/gtkmm-3.22.0:3.0::gentoo  USE="X wayland (-aqua) -doc {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] net-wireless/wpa_supplicant-2.6::gentoo  USE="ap dbus hs2-0 p2p qt5 readline ssl wps -eap-sim -fasteap -gnutls (-libressl) (-ps3) -qt4 (-selinux) -smartcard -tdls -uncommon-eap-types (-wimax)" 0 KiB
+[ebuild   R   ~] dev-qt/qdbusviewer-5.7.1:5/5.7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R    ] dev-db/mariadb-10.0.30:0/18::gentoo  USE="bindist openssl pam perl server xml -debug -embedded -extraengine -jdbc -jemalloc -latin1 (-libressl) -odbc -oqgraph -profiling (-selinux) -sphinx -static -static-libs -systemtap -tcmalloc {-test} -tokudb -yassl" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] sys-libs/libomp-3.9.1:0/3.9::gentoo  USE="-hwloc -ompt" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] kde-frameworks/extra-cmake-modules-5.33.0:5/5.33::gentoo  USE="-doc {-test}" 0 KiB
+[ebuild   R   ~] dev-qt/linguist-tools-5.7.1:5/5.7::gentoo  USE="qml -debug {-test}" 0 KiB
+[ebuild   R   ~] dev-libs/libqtxdg-2.0.0::gentoo  USE="{-test}" 0 KiB
+[ebuild   R    ] dev-util/automoc-0.9.88-r1::gentoo  9 KiB
+[ebuild   R   ~] dev-qt/designer-5.7.1:5/5.7::gentoo  USE="declarative -debug {-test} -webkit" 0 KiB
+[ebuild   R    ] dev-libs/libdbusmenu-qt-0.9.3_pre20160218::gentoo  USE="qt4 qt5 -debug {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-gfx/exiv2-0.25-r2:0/14::gentoo  USE="nls png xmp -doc -examples -webready" ABI_X86="32 (64) (-x32)" LINGUAS="-bs -de -es -fi -fr -gl -ms -pl -pt -ru -sk -sv -ug -uk -vi" 5,307 KiB
+[ebuild   R   ~] dev-qt/qtwebkit-5.7.1:5/5.7::gentoo  USE="jit opengl qml -debug -geolocation -gstreamer -gstreamer010 -multimedia -orientation -printsupport {-test} -webchannel -webp" 0 KiB
+[ebuild   R    ] app-crypt/qca-2.1.1:2::gentoo  USE="qt4 qt5 ssl -botan -debug -doc -examples -gcrypt -gpg -libressl -logger -nss -pkcs11 -sasl -softstore {-test}" 0 KiB
+[ebuild   R   ~] dev-qt/qtgraphicaleffects-5.7.1:5/5.7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R    ] media-libs/taglib-1.10::gentoo  USE="asf mp4 -debug -examples {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/freeglut-3.0.0::gentoo  USE="-debug -static-libs" ABI_X86="32 (64) (-x32)" 410 KiB
+[ebuild   R   ~] dev-qt/qtquickcontrols-5.7.1:5/5.7::gentoo  USE="widgets -debug {-test}" 0 KiB
+[ebuild   R    ] net-libs/libproxy-0.4.13-r2::gentoo  USE="kde -gnome -mono -networkmanager -perl -python -spidermonkey {-test} -webkit" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] media-libs/lensfun-0.3.1::gentoo  USE="-doc {-test}" CPU_FLAGS_X86="sse sse2" PYTHON_TARGETS="python2_7" 745 KiB
+[ebuild   R    ] net-libs/libssh-0.7.3-r1:0/4::gentoo  USE="sftp zlib -debug -doc -examples -gcrypt -gssapi (-libressl) -pcap -server -ssh1 -static-libs {-test}" ABI_X86="32 (64) (-x32)" 343 KiB
+[ebuild   R    ] sys-libs/uid_wrapper-1.2.1::gentoo  USE="{-test}" ABI_X86="32 (64) (-x32)" 305 KiB
+[ebuild   R    ] net-libs/socket_wrapper-1.1.6::gentoo  USE="{-test}" ABI_X86="32 (64) (-x32)" 53 KiB
+[ebuild   R    ] sys-libs/nss_wrapper-1.1.3::gentoo  USE="{-test}" ABI_X86="32 (64) (-x32)" 53 KiB
+[ebuild   R   ~] dev-qt/qtwayland-5.7.1:5/5.7::gentoo  USE="egl xcomposite -debug {-test}" 0 KiB
+[ebuild   R    ] dev-libs/libattica-0.4.2::gentoo  USE="-debug {-test}" 56 KiB
+[ebuild   R    ] dev-libs/grantlee-5.1.0:5::gentoo  USE="-debug -doc {-test}" 0 KiB
+[ebuild   R    ] dev-libs/libical-1.0.1:0/1::gentoo  USE="-doc -examples -introspection -static-libs" 704 KiB
+[ebuild   R    ] x11-libs/qtermwidget-0.7.1::gentoo  0 KiB
+[ebuild   R    ] dev-libs/libgit2-0.24.6:0/24::gentoo  USE="threads -examples -gssapi (-libressl) -ssh {-test} -trace" 0 KiB
+[ebuild   R    ] gnome-extra/gnome-system-monitor-3.22.2::gentoo  USE="X systemd" 0 KiB
+[ebuild   R    ] app-i18n/uchardet-0.0.6::gentoo  USE="-static-libs {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kdoctools-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kcompletion-5.33.0:5/5.33::gentoo  USE="nls -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/solid-5.33.0:5/5.33::gentoo  USE="nls -debug {-test}" 0 KiB
+[ebuild   R   ~] lxqt-base/liblxqt-0.11.0-r1::gentoo  0 KiB
+[ebuild   R   ~] kde-frameworks/kjobwidgets-5.33.0:5/5.33::gentoo  USE="X nls -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kwayland-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kpackage-5.33.0:5/5.33::gentoo  USE="-debug -man {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kidletime-5.33.0:5/5.33::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/sonnet-5.33.0:5/5.33::gentoo  USE="hunspell nls -aspell -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kitemmodels-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kpty-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/oxygen-icons-5.33.0:5/5.33::gentoo  USE="{-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kfilemetadata-5.33.0:5/5.33::gentoo  USE="exif pdf -debug -epub -ffmpeg -libav -taglib {-test}" 0 KiB
+[ebuild   R   ~] kde-plasma/kdecoration-5.9.4:5::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] x11-misc/sddm-0.14.0-r3::gentoo  USE="pam systemd (-consolekit) (-elogind)" 0 KiB
+[ebuild   R    ] net-wireless/bluez-5.43-r1:0/3::gentoo  USE="cups obex readline systemd udev -debug -deprecated -doc -experimental -extra-tools (-selinux) {-test} -test-programs -user-session" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] dev-libs/sni-qt-0.2.6-r1::gentoo  USE="{-test}" ABI_X86="32 (64) (-x32)" 34 KiB
+[ebuild   R    ] media-libs/libwebp-0.5.2:0/6::gentoo  USE="gif jpeg opengl png tiff -experimental (-neon) -static-libs -swap-16bit-csp" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="sse2 -avx2 -sse4_1" 0 KiB
+[ebuild   R    ] net-fs/samba-4.2.14::gentoo  USE="acl client cups fam ldap pam system-mitkrb5 systemd -addc -addns -ads -aio -avahi -cluster -dmapi -gnutls -iprint -quota (-selinux) -syslog {-test} -winbind" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R   ~] kde-frameworks/kunitconversion-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/attica-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/threadweaver-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/bluez-qt-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kdnssd-5.33.0:5/5.33::gentoo  USE="nls -debug {-test} -zeroconf" 0 KiB
+[ebuild   R   ~] kde-plasma/kwallet-pam-5.9.4:5::gentoo  USE="oldwallet -debug" 0 KiB
+[ebuild   R   ~] kde-plasma/plasma-workspace-wallpapers-5.9.4:5::gentoo  0 KiB
+[ebuild   R   ~] kde-plasma/breeze-gtk-5.9.4:5::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-apps/kholidays-17.04.0:5::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/syntax-highlighting-5.33.0:5/5.33::gentoo  USE="nls -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/breeze-icons-5.33.0:5/5.33::gentoo  USE="{-test}" 0 KiB
+[ebuild   R    ] dev-libs/qtkeychain-0.7.0:0/1::gentoo  USE="qt4 qt5" 0 KiB
+[ebuild   R    ] net-libs/glib-networking-2.50.0::gentoo  USE="gnome libproxy ssl -smartcard {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] x11-misc/obconf-qt-0.9.0_p20150729::gentoo  95 KiB
+[ebuild   R    ] net-libs/signond-8.58::gentoo  USE="-doc {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kimageformats-5.33.0:5/5.33::gentoo  USE="-debug -eps -openexr {-test}" 0 KiB
+[ebuild   R    ] media-libs/jasper-2.0.12:0/4::gentoo  USE="jpeg opengl -doc" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] x11-terms/qterminal-0.7.1::gentoo  0 KiB
+[ebuild   R   ~] kde-frameworks/kservice-5.33.0:5/5.33::gentoo  USE="man -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-plasma/libkscreen-5.9.4:5/7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kjs-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R    ] net-libs/libsoup-2.56.0:2.4::gentoo  USE="introspection ssl -debug -gssapi -samba {-test} -vala" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-globalkeys-0.11.0::gentoo  0 KiB
+[ebuild   R   ~] kde-frameworks/kdesignerplugin-5.33.0:5/5.33::gentoo  USE="nls -debug -designer -webkit" 0 KiB
+[ebuild   R   ~] kde-plasma/kwayland-integration-5.9.4:5::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-plasma/kgamma-5.9.4:5::gentoo  USE="handbook -debug" 0 KiB
+[ebuild   R   ~] dev-qt/qtbluetooth-5.7.1:5/5.7::gentoo  USE="qml -debug {-test}" 0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-policykit-0.11.0::gentoo  0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-qtplugin-0.11.0::gentoo  0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-powermanagement-0.11.0::gentoo  0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-about-0.11.0::gentoo  0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-sudo-0.11.0::gentoo  0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-admin-0.11.0::gentoo  0 KiB
+[ebuild   R   ~] dev-qt/qtimageformats-5.7.1:5/5.7::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] mail-client/trojita-0.7-r2::gentoo  USE="dbus password zlib -crypt -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kglobalaccel-5.33.0:5/5.33::gentoo  USE="nls -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/ktextwidgets-5.33.0:5/5.33::gentoo  USE="-debug (-speech) {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kemoticons-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kdesu-5.33.0:5/5.33::gentoo  USE="X -debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/kjsembed-5.33.0:5/5.33::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/kpeople-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-runner-0.11.0::gentoo  0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-config-0.11.0::gentoo  0 KiB
+
+[ebuild   R    ] gnome-base/gvfs-1.30.3::gentoo  USE="cdda gtk http mtp (policykit) systemd udev udisks -afp -archive -bluray -fuse -gnome-keyring -gnome-online-accounts -google -gphoto2 -ios -nfs -samba {-test} -zeroconf" 0 KiB
+[ebuild   R    ] dev-python/PyQt5-5.7.1::gentoo  USE="bluetooth dbus declarative gui network opengl printsupport svg widgets -debug -designer -doc -examples -gles2 -help -location -multimedia -positioning -sensors -serialport -sql* -testlib -webchannel -webengine -webkit -websockets -x11extras -xmlpatterns*" PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R   ~] kde-frameworks/kxmlgui-5.33.0:5/5.33::gentoo  USE="-attica -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kbookmarks-5.33.0:5/5.33::gentoo  USE="nls -debug {-test}" 0 KiB
+[ebuild   R   *] kde-apps/libkipi-17.04.49.9999:5/32::kde  USE="-debug" 0 KiB
+[ebuild   R    ] x11-libs/gtk+-2.24.31-r1:2::gentoo  USE="cups introspection xinerama (-aqua) -examples {-test} -vim-syntax" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] xfce-base/libxfce4ui-4.13.0::gentoo  USE="startup-notification -debug -glade" 0 KiB
+[ebuild   R    ] x11-libs/libfm-1.2.4:0/4.4.0::gentoo  USE="automount exif gtk udisks -debug -doc -examples -vala" 0 KiB
+[ebuild   R    ] dev-libs/libdbusmenu-12.10.2-r2::gentoo  USE="gtk gtk3 introspection -debug" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 719 KiB
+[ebuild   R    ] net-dialup/ppp-2.4.7-r3:0/2.4.7::gentoo  USE="gtk ipv6 pam -activefilter -atm -dhcp -eap-tls (-libressl) -radius" 0 KiB
+[ebuild   R    ] x11-themes/gtk-engines-adwaita-3.22.3::gentoo  ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] app-text/gtkspell-2.0.16:2::gentoo  344 KiB
+[ebuild   R    ] dev-cpp/gtkmm-2.24.5:2.4::gentoo  USE="-doc -examples {-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-gfx/gtkimageview-1.6.4::gentoo  USE="-examples -static-libs" 0 KiB
+[ebuild   R    ] app-crypt/pinentry-0.9.7-r1::gentoo  USE="gtk ncurses qt5 -caps -emacs -gnome-keyring -qt4 -static" 0 KiB
+[ebuild   R    ] dev-libs/libindicator-12.10.1-r201::gentoo  USE="{-test}" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-gfx/fontforge-20160404::gentoo  USE="X cairo gif gtk jpeg png python readline svg tiff unicode -truetype-debugger" PYTHON_SINGLE_TARGET="python3_4* -python2_7* (-python3_5)" PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild   R    ] x11-libs/vte-0.28.2-r208::gentoo  USE="introspection -debug -python" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] gnome-base/libglade-2.6.4-r2:2.0::gentoo  USE="-static-libs {-test} -tools" ABI_X86="32 (64) (-x32)" PYTHON_SINGLE_TARGET="python2_7 (-pypy)" PYTHON_TARGETS="python2_7 (-pypy)" 348 KiB
+[ebuild   R    ] x11-libs/libwnck-2.31.0:1::gentoo  USE="introspection startup-notification" 617 KiB
+[ebuild   R    ] x11-libs/gtksourceview-2.10.5-r3:2.0::gentoo  USE="{-test}" 1,224 KiB
+[ebuild   R    ] app-editors/leafpad-0.8.18.1::gentoo  USE="-emacs" 283 KiB
+[ebuild   R    ] app-crypt/gnupg-2.1.18::gentoo  USE="bzip2 gnutls ldap nls readline smartcard usb -doc (-selinux) -tofu -tools -wks-server" 0 KiB
+[ebuild   R    ] dev-python/pygtk-2.24.0-r4:2::gentoo  USE="-doc -examples {-test}" PYTHON_TARGETS="python2_7" 2,306 KiB
+[ebuild   R    ] net-misc/networkmanager-1.4.4-r1::gentoo  USE="bluetooth dhclient introspection modemmanager ncurses nss ppp systemd wext wifi -audit -connection-sharing (-consolekit) -gnutls -json -ofono -resolvconf (-selinux) -teamd {-test} -vala" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] x11-libs/libfm-qt-0.11.1:0/3::gentoo  0 KiB
+[ebuild   R    ] xfce-base/exo-0.10.7::gentoo  USE="-debug" 0 KiB
+[ebuild   R    ] media-gfx/ufraw-0.22::gentoo  USE="gtk openmp -contrast -fits -gimp -gnome -timezone" 0 KiB
+[ebuild   R    ] dev-libs/libappindicator-12.10.0-r201:2::gentoo  USE="introspection -python" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] dev-libs/libappindicator-12.10.0-r301:3::gentoo  USE="introspection" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] xfce-base/garcon-0.5.0-r2::gentoo  USE="-debug" 0 KiB
+[ebuild   R    ] lxde-base/lxterminal-0.1.11::gentoo  0 KiB
+[ebuild   R    ] media-fonts/arphicfonts-0.2.20080216.1-r2::gentoo  USE="X" 36,849 KiB
+[ebuild   R    ] media-gfx/imagemagick-6.9.7.4:0/6.9.7.4::gentoo  USE="X bzip2 cxx fontconfig hdri jpeg jpeg2k lcms lzma openmp pango png raw svg tiff truetype webp wmf xml zlib -autotrace -corefonts -djvu -fftw -fpx -graphviz -jbig -lqr (-opencl) -openexr -perl -postscript -q32 -q64 -q8 -static-libs {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/networkmanager-qt-5.33.0:5/5.33::gentoo  USE="-debug -teamd {-test}" 0 KiB
+[ebuild   R   ~] x11-misc/pcmanfm-qt-0.11.1::gentoo  0 KiB
+[ebuild   R   ~] media-gfx/lximage-qt-0.5.0::gentoo  0 KiB
+[ebuild   R    ] xfce-base/xfce4-panel-4.12.0-r1::gentoo  USE="-debug" 0 KiB
+[ebuild   R    ] dev-python/pygtksourceview-2.10.1-r1:2::gentoo  USE="-doc" PYTHON_TARGETS="python2_7" 284 KiB
+[ebuild   R    ] app-arch/rpm-4.11.0.1::gentoo  USE="acl nls -caps -doc -lua -python (-selinux)" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] media-sound/alsa-tools-1.1.0:0.9::gentoo  USE="gtk -fltk" ALSA_CARDS="ice1712 sb16 -emu10k1 -emu10k1x -hdsp -hdspm -mixart -pcxhr -rme32 -rme96 -sbawe -sscape -usb-usx2y -vx222" 0 KiB
+[ebuild   R    ] media-gfx/uniconvertor-2.0_pre379-r1::gentoo  PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R    ] xfce-extra/xfce4-screenshooter-1.8.2::gentoo  USE="-debug" 481 KiB
+[ebuild   R    ] media-gfx/inkscape-0.91-r3::gentoo  USE="cdr dbus exif imagemagick jpeg lcms nls openmp spell -dia -gnome -inkjar -latex -postscript -static-libs -visio -wpg" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-common-0.11.0::gentoo  0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-session-0.11.0::gentoo  0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-notificationd-0.11.0::gentoo  0 KiB
+[ebuild   R    ] dev-java/icedtea-bin-3.3.0:8::gentoo  USE="alsa cups gtk pulseaudio webstart -doc -examples -headless-awt -multilib* -nsplugin (-selinux) -source" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-sound/pulseaudio-10.0::gentoo  USE="X alsa alsa-plugin asyncns bluetooth caps dbus equalizer gdbm glib gnome gtk ipv6 orc qt4 ssl systemd tcpd udev webrtc-aec -doc -jack (-libressl) -libsamplerate -lirc -native-headset (-neon) -ofono-headset (-oss) -realtime (-selinux) -sox (-system-wide) {-test} -zeroconf" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/libsdl-1.2.15-r9::gentoo  USE="X alsa joystick opengl pulseaudio sound video xinerama xv -aalib -custom-cflags -dga -fbcon -libcaca -nas -oss -static-libs -tslib" ABI_X86="32 (64) (-x32)" 3,829 KiB
+[ebuild   R    ] media-libs/libcanberra-0.30-r5::gentoo  USE="alsa gtk gtk3 pulseaudio sound udev -gnome -gstreamer -oss -tdb" ABI_X86="32 (64) (-x32)" 312 KiB
+[ebuild   R    ] media-libs/libsdl2-2.0.4::gentoo  USE="X alsa dbus gles joystick opengl pulseaudio sound threads udev video wayland xinerama xscreensaver (-altivec) (-custom-cflags) (-fusionsound) -haptic -nas -oss -static-libs -tslib" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="3dnow mmx sse sse2" 0 KiB
+[ebuild   R    ] media-plugins/alsa-plugins-1.1.1::gentoo  USE="libsamplerate pulseaudio speex -debug -ffmpeg -jack -libav" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-sound/qmmp-1.1.7-r1::gentoo  USE="aac alsa cdda cover crossfade cue curl dbus flac lyrics mad mms pulseaudio qsui sndfile tray udisks vorbis wavpack -analyzer -bs2b -enca -ffmpeg -game -gnome -jack -ladspa -libav -midi -modplug -mplayer -musepack -notifier -opus -oss -projectm -qtmedia -scrobbler -sid -soxr -stereo" 0 KiB
+[ebuild   R   ~] lxqt-base/lxqt-panel-0.11.0::gentoo  USE="alsa clock cpuload desktopswitch kbindicator mainmenu mount networkmonitor pulseaudio quicklaunch showdesktop taskbar tray volume -colorpicker -dom -sensors -statusnotifier -sysstat -worldclock" 0 KiB
+[ebuild   R    ] dev-java/icedtea-sound-1.0.1::gentoo  USE="doc {-test}" 1,480 KiB
+[ebuild   R   ~] net-im/skype-4.3.0.37-r5::gentoo  USE="plasma pulseaudio -apulse -pax_kernel (-selinux)" 18,859 KiB
+[ebuild   R    ] media-libs/openal-1.15.1-r2::gentoo  USE="alsa pulseaudio (-coreaudio) -debug (-neon) -oss -portaudio" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="sse" 248 KiB
+[ebuild   R    ] media-video/ffmpeg-3.2.4:0/55.57.57::gentoo  USE="X alsa bzip2 encode gpl hardcoded-tables iconv mp3 network opengl postproc pulseaudio sdl threads truetype vorbis x264 xcb xvid zlib (-altivec) -amr -amrenc (-armv5te) (-armv6) (-armv6t2) (-armvfp) -bluray -bs2b -cdio -celt -chromaprint -cpudetection -debug -doc -ebur128 -fdk -flite -fontconfig -frei0r -fribidi -gcrypt -gme -gmp -gnutls -gsm -iec61883 -ieee1394 -jack -jpeg2k -kvazaar -ladspa -libass -libcaca -libilbc -librtmp -libsoxr -libv4l -lzma (-mipsdspr1) (-mipsdspr2) (-mipsfpu) (-mmal) -modplug (-neon) -nvenc -openal -openh264 -openssl -opus -oss -pic -rubberband -samba -schroedinger -snappy -speex -ssh -static-libs {-test} -theora -twolame -v4l -vaapi -vdpau -vpx -wavpack -webp -x265 -zimg -zvbi" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="3dnow 3dnowext mmx mmxext sse sse2 sse3 -aes -avx -avx2 -fma3 -fma4 -sse4_1 -sse4_2 -ssse3 -xop" FFTOOLS="aviocat cws2fws ffescape ffeval ffhash fourcc2pixfmt graph2dot ismindex pktdumper qt-faststart sidxindex trasher" 0 KiB
+[ebuild   R    ] media-sound/mpg123-1.23.8::gentoo  USE="alsa ipv6 pulseaudio sdl (-altivec) (-coreaudio) -int-quality -jack -nas -oss -portaudio" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="sse (-3dnow) (-3dnowext) (-mmx)" 0 KiB
+[ebuild   R    ] x11-libs/wxGTK-3.0.2.0-r2:3.0::gentoo  USE="X libnotify opengl sdl tiff (-aqua) -debug -doc -gstreamer -webkit" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R    ] media-libs/libmpeg2-0.5.1-r2::gentoo  USE="X sdl -static-libs" ABI_X86="32 (64) (-x32)" 513 KiB
+[ebuild   R    ] dev-libs/DirectFB-1.7.6::gentoo  USE="X alsa dynload gif jpeg mad mng opengl png sdl tiff truetype vorbis zlib -bmp -cddb -debug -divine -doc -drmkms -egl -fbcon -fusiondale -fusionsound -gles2 -gstreamer -imlib2 -input_hub -jpeg2k -mpeg2 -mpeg3 -multicore -oss -pnm -sawman -static-libs (-swfdec) -timidity -tremor -v4l -vdpau -webp -xine" CPU_FLAGS_X86="mmx sse" INPUT_DEVICES="evdev -dynapro -elo2300 -joystick -keyboard -lirc -mouse -mutouch -tslib" VIDEO_CARDS="-intel -mach64 -mga -neomagic (-nsc) -nvidia -r128 -radeon -s3 -sis -tdfx -via -vmware" 0 KiB                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+[ebuild   R   ~] lxqt-base/lxqt-meta-0.11.0::gentoo  USE="about admin filemanager icons lximage oxygen (policykit) powermanagement sddm sudo -lightdm -minimal -ssh-askpass" 0 KiB
+[ebuild   R    ] media-sound/pavucontrol-3.0::gentoo  USE="nls" 142 KiB
+[ebuild   R    ] media-video/vlc-2.2.4-r1:0/5-8::gentoo  USE="X a52 alsa avcodec avformat bluray cdda dbus directfb dts dvbpsi dvd encode ffmpeg flac gcrypt jpeg kde libnotify libsamplerate lua mp3 mpeg mtp ncurses ogg opengl png pulseaudio qt5 sdl sftp skins speex svg swscale taglib theora truetype udev vdpau vorbis x264 xcb xml xv -aalib (-altivec) -atmo (-audioqueue) -bidi -cddb -chromaprint -dc1394 -debug (-directx) -dvb (-dxva2) -faad -fdk -fluidsynth -fontconfig -gme -gnome -gnutls -growl -gstreamer -httpd -ieee1394 -jack -kate -libass -libav -libcaca -libtar -libtiger -linsys -lirc -live (-macosx-dialog-provider) (-macosx-eyetv) (-macosx-qtkit) (-macosx-quartztext) -matroska -modplug -musepack (-neon) -omxil -opencv -optimisememory -opus -postproc -projectm -qt4 -rdp -rtsp -run-as-root -samba -schroedinger -sdl-image -shout -sid {-test} -tremor -twolame -upnp -v4l -vaapi -vcdx -vlm -vnc -vpx -wma-fixed -x265 -zeroconf -zvbi" CPU_FLAGS_X86="mmx sse" 0 KiB                                                                                                                 
+[ebuild   R    ] media-plugins/qmmp-plugin-pack-1.1.3-r1::gentoo  0 KiB
+[ebuild   R    ] app-arch/p7zip-16.02-r1::gentoo  USE="kde pch wxwidgets -doc -rar (-static)" ABI_X86="(-x32)" 0 KiB
+[ebuild   R    ] media-video/mpv-0.18.0-r1::gentoo  USE="X alsa cdda cli dvd egl enca encode iconv jpeg lcms libass lua luajit opengl pulseaudio sdl wayland xinerama xscreensaver xv (-aqua) -archive -bluray (-coreaudio) -doc -drm -dvb -gbm -jack -libav -libcaca -libguess -libmpv -openal -oss (-raspberry-pi) -rubberband -samba (-selinux) {-test} -uchardet -v4l -vaapi -vdpau -vf-dlopen -zsh-completion" 0 KiB
+[ebuild   R   ~] www-client/firefox-bin-53.0::gentoo  USE="ffmpeg pulseaudio startup-notification (-selinux)" L10N="-ach -af -an -ar -as -ast -az -bg -bn-BD -bn-IN -br -bs -ca -cs -cy -da -de -el -en-GB -en-ZA -eo -es-AR -es-CL -es-ES -es-MX -et -eu -fa -fi -fr -fy -ga -gd -gl -gu -he -hi -hr -hsb -hu -hy -id -is -it -ja -kk -km -kn -ko -lt -lv -mai -mk -ml -mr -ms -nb -nl -nn -or -pa -pl -pt-BR -pt-PT -rm -ro -ru -si -sk -sl -son -sq -sr -sv -ta -te -th -tr -uk -uz -vi -xh -zh-CN -zh-TW" 0 KiB
+[ebuild   R    ] media-libs/phonon-4.9.0::gentoo  USE="designer pulseaudio qt4 qt5 vlc (-aqua) -debug -gstreamer (-zeitgeist)" ABI_X86="32 (64) (-x32)" 0 KiB
+[ebuild   R   ~] kde-frameworks/knotifications-5.33.0:5/5.33::gentoo  USE="X dbus nls -debug (-speech)" 0 KiB
+[ebuild   R    ] media-libs/phonon-vlc-0.9.0::gentoo  USE="qt4 qt5 -debug" 0 KiB
+[ebuild   R    ] dev-python/PyQt4-4.12::gentoo  USE="X dbus declarative kde opengl phonon script sql svg webkit -compat -debug -designer -doc -examples -help -multimedia -scripttools -testlib -xmlpatterns" PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R   ~] kde-frameworks/kwallet-5.33.0:5/5.33::gentoo  USE="man -debug -gpg {-test}" 0 KiB
+[ebuild   R   ~] kde-plasma/kwrited-5.9.4:5::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-plasma/ksshaskpass-5.9.4:5::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/kio-5.33.0:5/5.33::gentoo  USE="X acl handbook kwallet -debug -kerberos {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kparts-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kdeclarative-5.33.0:5/5.33::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/knewstuff-5.33.0:5/5.33::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/kinit-5.33.0:5/5.33::gentoo  USE="caps man -debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/knotifyconfig-5.33.0:5/5.33::gentoo  USE="phonon -debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/baloo-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-plasma/kactivitymanagerd-5.9.4:5::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/kxmlrpcclient-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   *] media-video/kaffeine-9999:5::kde  USE="handbook -debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/kcmutils-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kactivities-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kded-5.33.0:5/5.33::gentoo  USE="man -debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/khtml-5.33.0:5/5.33::gentoo  USE="X -debug -libressl {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/frameworkintegration-5.33.0:5/5.33::gentoo  USE="X -appstream -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/ktexteditor-5.33.0:5/5.33::gentoo  USE="-debug -editorconfig -git {-test}" 0 KiB
+[ebuild   R   ~] kde-apps/konsole-17.04.0:5::gentoo  USE="X handbook -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-apps/baloo-widgets-17.04.0:5::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kross-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kdewebkit-5.33.0:5/5.33::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-apps/ark-17.04.0:5::gentoo  USE="bzip2 handbook lzma zlib -debug {-test} -zip" 0 KiB
+[ebuild   R    ] net-irc/konversation-1.6.2:5::gentoo  USE="crypt handbook -debug" 0 KiB
+[ebuild   R   ~] kde-plasma/kde-cli-tools-5.9.4:5::gentoo  USE="X handbook kdesu -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/plasma-5.33.0-r1:5/5.33::gentoo  USE="X wayland -debug -gles2 {-test}" 0 KiB
+[ebuild   R   ~] kde-frameworks/kdelibs4support-5.33.0:5/5.33::gentoo  USE="X -debug -libressl {-test}" 0 KiB
+[ebuild   R   ~] kde-plasma/user-manager-5.9.4:5::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/kactivities-stats-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-apps/gwenview-17.04.0:5::gentoo  USE="X handbook kipi semantic-desktop -debug -raw {-test}" 0 KiB
+[ebuild   R    ] kde-misc/yakuake-3.0.2:5::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-frameworks/krunner-5.33.0:5/5.33::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-plasma/kscreenlocker-5.9.4:5::gentoo  USE="pam -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-plasma/libksysguard-5.9.4:5::gentoo  USE="X detailedmemory -debug -minimal {-test}" 0 KiB
+[ebuild   R   ~] kde-apps/kio-extras-17.04.0:5::gentoo  USE="exif handbook man mtp phonon samba sftp -activities -debug -htmlthumbs -openexr -slp -taglib {-test}" 0 KiB
+[ebuild   R   ~] kde-apps/khelpcenter-17.04.0:5::gentoo  USE="handbook -debug" 0 KiB
+[ebuild   R   ~] kde-plasma/kde-gtk-config-5.9.4:5::gentoo  USE="gtk3 -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-plasma/plasma-pa-5.9.4:5::gentoo  USE="handbook -debug" 0 KiB
+[ebuild   R   ~] kde-plasma/sddm-kcm-5.9.4:5::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-plasma/kscreen-5.9.4:5::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-plasma/kinfocenter-5.9.4:5::gentoo  USE="handbook opengl pci wayland -debug -gles2 -ieee1394" 0 KiB
+[ebuild   R   ~] kde-plasma/bluedevil-5.9.4:5::gentoo  USE="-debug" 0 KiB
+[ebuild   R   *] net-libs/libkvkontakte-9999:5::kde  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-apps/kaccounts-integration-17.04.0:5::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] kde-apps/kate-17.04.0:5::gentoo  USE="addons handbook -debug {-test}" 0 KiB
+[ebuild   R   ~] kde-apps/kolourpaint-17.04.0:5::gentoo  USE="handbook -debug -scanner" 0 KiB
+[ebuild   R   ~] kde-plasma/ksysguard-5.9.4:5::gentoo  USE="handbook -debug -lm_sensors" 0 KiB
+[ebuild   R   ~] kde-plasma/milou-5.9.4:5::gentoo  USE="-debug" 0 KiB
+[ebuild   R   ~] kde-plasma/systemsettings-5.9.4:5::gentoo  USE="gtk handbook -classic -debug" 0 KiB
+[ebuild   R    ] dev-libs/purpose-1.1-r1:5::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R   ~] media-plugins/kipi-plugins-5.5.0:5::gentoo  USE="remotestorage vkontakte -debug -flashexport -mediawiki {-test}" 0 KiB
+[ebuild   R   ~] kde-apps/dolphin-17.04.0:5::gentoo  USE="handbook semantic-desktop -debug {-test} -thumbnail" 0 KiB
+[ebuild   R   ~] kde-apps/spectacle-17.04.0:5::gentoo  USE="handbook kipi share -debug" 0 KiB
+[ebuild   R    ] kde-frameworks/kdelibs-4.14.29-r1:4/4.14::gentoo  USE="acl bzip2 crypt handbook nls opengl (policykit) spell ssl udev udisks upower webkit (-altivec) (-aqua) -debug -doc (-fam*) -jpeg2k -kerberos (-libressl) -lzma -openexr {-test} -zeroconf" CPU_FLAGS_X86="3dnow mmx sse sse2" 0 KiB
+[ebuild   R   ~] kde-plasma/breeze-5.9.4:5::gentoo  USE="qt4 wayland -debug" 0 KiB
+[ebuild   R   ~] kde-plasma/oxygen-5.9.4:5::gentoo  USE="qt4 wayland -debug" 0 KiB
+[ebuild   R    ] kde-apps/katepart-4.14.3:4/4.14::gentoo  USE="handbook (-aqua) -debug" 2,703 KiB
+[ebuild   R    ] kde-plasma/qguiplatformplugin_kde-4.11.22:4/4.11::gentoo  USE="(-aqua) -debug" 0 KiB
+[ebuild  N     ] kde-apps/kwalletd-16.04.3:4/16.04::gentoo  USE="(-aqua) -debug -gpg" 7,719 KiB
+[ebuild   R   ~] kde-plasma/kwin-5.9.4-r1:5::gentoo  USE="handbook -debug -gles2 -multimedia {-test}" 0 KiB
+[ebuild   R   ~] kde-plasma/plasma-integration-5.9.4:5::gentoo  USE="-debug {-test}" 0 KiB
+[ebuild   R    ] dev-vcs/subversion-1.9.5::gentoo  USE="berkdb dso http kwallet* nls -apache2 -ctypes-python -debug -doc -extras -gnome-keyring -java -perl -python -ruby -sasl {-test} -vim-syntax" PYTHON_TARGETS="python2_7" 0 KiB
+[ebuild   R   ~] kde-plasma/plasma-workspace-5.9.4:5::gentoo  USE="calendar handbook semantic-desktop -debug -geolocation -gps -prison -qalculate {-test}" 0 KiB
+[ebuild   R    ] app-portage/layman-2.4.2::gentoo  USE="bazaar cvs git mercurial subversion -darcs -g-sorcery -gpg -sqlite -squashfs -sync-plugin-portage {-test}" PYTHON_TARGETS="python2_7 python3_4 -pypy -python3_5" 0 KiB
+[ebuild   R   ~] kde-plasma/khotkeys-5.9.4:5::gentoo  USE="handbook -debug" 0 KiB
+[ebuild   R   ~] kde-plasma/plasma-desktop-5.9.4:5::gentoo  USE="fontconfig gtk2 gtk3 handbook legacy-systray pulseaudio qt4 semantic-desktop -appstream -debug -ibus -scim {-test}" INPUT_DEVICES="evdev -synaptics" 0 KiB
+[ebuild   R   ~] kde-plasma/plasma-nm-5.9.4:5::gentoo  USE="-debug -modemmanager -openconnect -teamd" 0 KiB
+[ebuild   R   ~] kde-plasma/powerdevil-5.9.4:5::gentoo  USE="handbook wireless (-consolekit) -debug" 0 KiB
+[ebuild   R   ~] kde-plasma/kdeplasma-addons-5.9.4:5::gentoo  USE="-debug -share" 0 KiB
+[ebuild   R   ~] kde-plasma/kmenuedit-5.9.4:5::gentoo  USE="handbook hotkeys -debug" 0 KiB
+[ebuild   R   ~] kde-plasma/plasma-meta-5.9.4:5::gentoo  USE="bluetooth display-manager gtk handbook networkmanager pam pulseaudio sddm wallpapers -grub -plymouth -sdk" 0 KiB
+
+Total: 1074 packages (1 new, 1073 reinstalls), Size of downloads: 242,490 KiB
+
+Would you like to merge these packages? [Yes/No] 

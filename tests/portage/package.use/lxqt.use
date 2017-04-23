@@ -1,0 +1,4 @@
+lxqt-base/lxqt-meta admin lximage powermanagement sddm sudo
+lxqt-base/lxqt-panel cpuload networkmonitor pulseaudio
+
+x11-wm/openbox xdg

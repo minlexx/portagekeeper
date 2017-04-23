@@ -1,0 +1,2 @@
+>=dev-qt/qtgui-5.6.2 egl
+>=dev-qt/qtwayland-5.6.2 egl

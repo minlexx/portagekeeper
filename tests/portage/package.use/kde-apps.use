@@ -1,0 +1,5 @@
+kde-apps/ark lzma
+kde-apps/libkipi:4 minimal
+
+media-plugins/kipi-plugins vkontakte
+kde-apps/spectacle share

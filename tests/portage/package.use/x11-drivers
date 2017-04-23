@@ -1,0 +1,13 @@
+# required by x11-drivers/xf86-video-vmware-13.1.0::gentoo
+# required by x11-base/xorg-drivers-1.16::gentoo[video_cards_vmware]
+# required by x11-base/xorg-server-1.16.4::gentoo[xorg]
+# required by x11-drivers/xf86-video-glint-1.2.8-r1::gentoo
+media-libs/mesa xa gles2
+
+# required by x11-drivers/xf86-video-vmware-13.1.0::gentoo
+# required by x11-base/xorg-drivers-1.16::gentoo[video_cards_vmware]
+# required by x11-base/xorg-server-1.16.4::gentoo[xorg]
+# required by x11-drivers/xf86-video-glint-1.2.8-r1::gentoo
+x11-libs/libdrm libkms
+
+

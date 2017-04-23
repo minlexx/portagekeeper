@@ -1,0 +1,10 @@
+dev-db/lmdb ~amd64
+=dev-util/cmake-3.6.2 ~amd64
+
+# needed for kwin 5.9
+=dev-libs/libinput-1.6.0 ~amd64
+
+=dev-python/ssl-fetch-0.4 ~amd64
+=dev-python/logbook-1.0.0 ~amd64
+
+=dev-qt/qt-creator-4.2.0 ~amd64

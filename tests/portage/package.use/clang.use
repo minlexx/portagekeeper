@@ -1,0 +1,2 @@
+sys-devel/llvm clang llvm_targets_X86
+sys-devel/clang static-analyzer llvm_targets_X86

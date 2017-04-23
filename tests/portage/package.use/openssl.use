@@ -1,0 +1,14 @@
+# required by net-voip/telepathy-gabble-0.18.3::gentoo[-gnutls]
+# required by net-im/telepathy-connection-managers-2-r2::gentoo[-msn,xmpp]
+# required by net-im/empathy-3.12.7::gentoo
+# required by gnome-base/gnome-core-apps-3.14.0::gentoo
+# required by gnome-base/gnome-3.14.0::gentoo
+# required by gnome (argument)
+dev-libs/openssl bindist
+net-misc/openssh bindist
+
+# qt-network [+ssl] requires openssl +bindist?
+# openssh must use the sam ebindist setting as openssl
+
+# setting telepathy-gabble [+gnutls] removes
+# the requirement of openssl [-bindist] !!!

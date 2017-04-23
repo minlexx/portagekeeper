@@ -1,0 +1,5 @@
+# required by kde-apps/kio-extras-15.12.3::gentoo[samba]
+# required by kde-apps/dolphin-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+net-fs/samba client

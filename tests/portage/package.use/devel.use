@@ -1,0 +1,33 @@
+sys-devel/gcc objc
+gnustep-base/gnustep-make native-exceptions
+
+# needed for prelink package
+dev-libs/elfutils static-libs
+dev-libs/libpcre pcre16
+dev-lang/python sqlite
+dev-qt/qt-creator autotools cmake git mercurial subversion valgrind
+dev-libs/botan threads -bindist -ssl
+dev-libs/libgit2 threads
+
+# required by net-fs/samba-4.2.9::gentoo
+# required by kde-apps/kio-extras-15.12.3::gentoo[samba]
+# required by kde-apps/dolphin-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+sys-libs/ntdb python
+
+# required by sys-libs/ldb-1.1.26::gentoo
+# required by net-fs/samba-4.2.9::gentoo
+# required by kde-apps/kio-extras-15.12.3::gentoo[samba]
+# required by kde-apps/dolphin-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+sys-libs/tevent python
+
+# required by sys-libs/ldb-1.1.26::gentoo
+# required by net-fs/samba-4.2.9::gentoo
+# required by kde-apps/kio-extras-15.12.3::gentoo[samba]
+# required by kde-apps/dolphin-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+sys-libs/tdb python

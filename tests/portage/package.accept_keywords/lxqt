@@ -1,0 +1,14 @@
+# Those are needed for LXDE-Qt
+lxqt-base/*
+dev-libs/libqtxdg
+media-gfx/lximage-qt
+x11-libs/libfm-qt
+x11-misc/xdg-utils
+x11-misc/pcmanfm-qt
+x11-misc/obconf-qt
+
+# This is part of KDE 5 unstable but needed here
+kde-frameworks/kguiaddons
+kde-frameworks/extra-cmake-modules
+kde-frameworks/kwindowsystem
+kde-frameworks/kf-env

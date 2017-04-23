@@ -1,0 +1,5 @@
+dev-libs/libdbusmenu gtk3 abi_x86_32
+dev-libs/libindicator abi_x86_32
+dev-libs/libappindicator abi_x86_32
+dev-libs/dbus-glib abi_x86_32
+dev-libs/json-glib abi_x86_32

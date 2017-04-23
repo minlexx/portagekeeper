@@ -1,0 +1,2 @@
+# needed for kwin-5.9
+=x11-libs/libxkbcommon-0.7.1 ~amd64

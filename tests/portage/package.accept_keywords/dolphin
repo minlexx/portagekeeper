@@ -1,0 +1,11 @@
+kde-apps/dolphin
+
+kde-apps/baloo-widgets
+kde-apps/kio-extras
+kde-apps/libkipi
+
+<=kde-apps/libkonq-15.12.2 ~amd64
+#=kde-apps/libkonq-9999 **
+=kde-apps/libkonq-5.9999 **
+
+<=kde-apps/keditbookmarks-15.12.2 ~amd64

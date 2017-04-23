@@ -1,0 +1,4 @@
+kde-plasma/plasma-meta networkmanager pulseaudio
+kde-plasma/plasma-desktop legacy-systray gtk2 gtk3 qt4 pulseaudio
+
+kde-apps/kio-extras mtp samba
