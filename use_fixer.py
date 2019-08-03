@@ -70,7 +70,20 @@ def write_useflags(out_dir: pathlib.Path,
 
     # destination file may exist; read/save its contents first
     existing_lines = []
-    if out_file.exists():
+
+    # ._cfg0000_* file may exist at this point;
+    #   if it is, then we should read existing lines from it
+    if out_file2.exists():
+        with open(str(out_file2), mode='rt', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if len(line) < 1:  # skip empty lines
+                    continue
+                if line[0] == '#':  # skip comments
+                    continue
+                existing_lines.append(line)
+            f.close()
+    elif out_file.exists():
         with open(str(out_file), mode='rt', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
@@ -121,12 +134,15 @@ def add_useflag(in_dir: pathlib.Path, out_dir: pathlib.Path, pn: str, useflag: s
     category = parts[0]
     package = parts[1]
     in_file = in_dir / category
+    in_file2 = in_dir / ("._cfg0000_" + category)
 
     existing_use = get_existing_useflags(in_file, pn)
-    if useflag not in existing_use:
-        existing_use.append(useflag)
+    existing_use2 = get_existing_useflags(in_file2, pn)
+    mergedlist = list(set(existing_use + existing_use2))
+    if useflag not in mergedlist:
+        mergedlist.append(useflag)
 
-    newuse = sorted(existing_use)
+    newuse = sorted(mergedlist)
     write_useflags(out_dir, category, package, newuse, no_overwrite_mode)
 
 
