@@ -91,10 +91,23 @@ def write_useflags(out_dir: pathlib.Path,
 
     # existing_lines contain lines in the following format:
     #  <category/package> <use flags separated by spaces ...>
-    new_line = '{}/{} {}'.format(category, package, ' '.join(useflags))
-    existing_lines.append(new_line)
+    package_name = '{}/{}'.format(category, package)
+    new_line = '{} {}'.format(package_name, ' '.join(useflags))
+
+    # find package line in existing lines
+    found = False
+    for i in range(len(existing_lines)):
+        if existing_lines[i].startswith(package_name):
+            found = True
+            existing_lines[i] = new_line
+            break
+    if not found:
+        existing_lines.append(new_line)
+
+    # sort them
     existing_lines = sorted(existing_lines)
 
+    # finally write them
     file_write_lines(out_file, existing_lines)
     file_write_lines(out_file2, existing_lines)
 
