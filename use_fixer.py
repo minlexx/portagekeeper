@@ -181,6 +181,9 @@ def main():
         print('New files ({}): '.format(len(g_new_files)))
         for s in g_new_files:
             print('    {}'.format(s))
+        
+        print('Please run etc-update or dispatch-conf to apply configuration changes.')
+        print('(Also remove all /etc/portage/package.use/*.new files)')
     except IOError:
         print('ERROR: Failed to open input file with flags:', args.in_file, file=sys.stderr)
 
