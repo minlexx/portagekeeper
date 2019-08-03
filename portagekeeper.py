@@ -1,7 +1,7 @@
-#!/usr/bin/python3.5
+#!/usr/bin/python3
 import argparse
 import logging
-import pathlib
+import pathlib  # python >= 3.5
 import re
 import sys
 import unittest
