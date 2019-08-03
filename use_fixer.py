@@ -49,7 +49,7 @@ def file_write_lines(out_file: pathlib.Path, lines: list) -> bool:
             # f.writelines(existing_lines) # does not add '\n's
             for line in lines:
                 f.write(line)
-            f.write('\n')
+                f.write('\n')
             f.close()
     except IOError:
         print('ERROR: Failed to write file: {}\n'.format(str(out_file)), file=sys.stderr)
@@ -73,6 +73,7 @@ def write_useflags(out_dir: pathlib.Path,
     if out_file.exists():
         with open(str(out_file), mode='rt', encoding='utf-8') as f:
             for line in f:
+                line = line.strip()
                 if len(line) < 1:  # skip empty lines
                     continue
                 if line[0] == '#':  # skip comments
